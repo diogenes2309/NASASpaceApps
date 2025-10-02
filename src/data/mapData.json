@@ -1,0 +1,296 @@
+{
+  "Bangladesh": {
+    "code": "BD",
+    "center": [23.8103, 90.4125],
+    "zoom": 7,
+    "avgRisk": 88,
+    "population": 169.4,
+    "area": 148460,
+    "coastline": 580,
+    "riverSystems": ["Ganges-Brahmaputra-Meghna", "Padma", "Jamuna", "Surma"],
+    "divisions": [
+      {
+        "name": "Dhaka",
+        "population": 44.9,
+        "riskLevel": 85,
+        "coordinates": [23.8103, 90.4125],
+        "districts": [
+          {
+            "name": "Dhaka",
+            "population": 12000000,
+            "riskLevel": "critical",
+            "coordinates": [23.8103, 90.4125],
+            "floodFrequency": "Annual",
+            "avgWaterLevel": 4.2,
+            "estimatedDamage": 1500000000,
+            "redevelopmentCost": 2200000000,
+            "rainfall": 450,
+            "cloudCover": 82,
+            "boundaries": [[23.95, 90.25], [23.95, 90.58], [23.65, 90.58], [23.65, 90.25], [23.95, 90.25]]
+          },
+          {
+            "name": "Gazipur",
+            "population": 3400000,
+            "riskLevel": "high",
+            "coordinates": [24.0022, 90.4264],
+            "floodFrequency": "Bi-Annual",
+            "avgWaterLevel": 3.1,
+            "estimatedDamage": 420000000,
+            "redevelopmentCost": 680000000,
+            "rainfall": 380,
+            "cloudCover": 75,
+            "boundaries": [[24.15, 90.28], [24.15, 90.58], [23.88, 90.58], [23.88, 90.28], [24.15, 90.28]]
+          },
+          {
+            "name": "Narayanganj",
+            "population": 2900000,
+            "riskLevel": "critical",
+            "coordinates": [23.6238, 90.5000],
+            "floodFrequency": "Annual",
+            "avgWaterLevel": 3.8,
+            "estimatedDamage": 680000000,
+            "redevelopmentCost": 950000000,
+            "rainfall": 425,
+            "cloudCover": 80,
+            "boundaries": [[23.72, 90.42], [23.72, 90.62], [23.52, 90.62], [23.52, 90.42], [23.72, 90.42]]
+          }
+        ]
+      },
+      {
+        "name": "Chittagong",
+        "population": 28.4,
+        "riskLevel": 92,
+        "coordinates": [22.3569, 91.7832],
+        "districts": [
+          {
+            "name": "Chittagong City",
+            "population": 8200000,
+            "riskLevel": "critical",
+            "coordinates": [22.3569, 91.7832],
+            "floodFrequency": "Annual + Cyclone",
+            "avgWaterLevel": 4.8,
+            "estimatedDamage": 1800000000,
+            "redevelopmentCost": 2600000000,
+            "rainfall": 520,
+            "cloudCover": 88,
+            "boundaries": [[22.48, 91.68], [22.48, 91.92], [22.22, 91.92], [22.22, 91.68], [22.48, 91.68]]
+          },
+          {
+            "name": "Cox's Bazar",
+            "population": 2290000,
+            "riskLevel": "high",
+            "coordinates": [21.4272, 92.0058],
+            "floodFrequency": "Cyclone",
+            "avgWaterLevel": 3.5,
+            "estimatedDamage": 560000000,
+            "redevelopmentCost": 890000000,
+            "rainfall": 485,
+            "cloudCover": 84,
+            "boundaries": [[21.58, 91.88], [21.58, 92.12], [21.28, 92.12], [21.28, 91.88], [21.58, 91.88]]
+          }
+        ]
+      },
+      {
+        "name": "Sylhet",
+        "population": 9.9,
+        "riskLevel": 95,
+        "coordinates": [24.8949, 91.8687],
+        "districts": [
+          {
+            "name": "Sylhet City",
+            "population": 3400000,
+            "riskLevel": "critical",
+            "coordinates": [24.8949, 91.8687],
+            "floodFrequency": "Annual + Flash",
+            "avgWaterLevel": 5.1,
+            "estimatedDamage": 980000000,
+            "redevelopmentCost": 1450000000,
+            "rainfall": 610,
+            "cloudCover": 90,
+            "boundaries": [[25.02, 91.75], [25.02, 92.02], [24.75, 92.02], [24.75, 91.75], [25.02, 91.75]]
+          }
+        ]
+      }
+    ]
+  },
+  "India": {
+    "code": "IN",
+    "center": [23.5937, 78.9629],
+    "zoom": 5,
+    "avgRisk": 76,
+    "population": 1408.0,
+    "area": 3287263,
+    "coastline": 7516,
+    "riverSystems": ["Ganges", "Brahmaputra", "Indus", "Godavari", "Krishna"],
+    "divisions": [
+      {
+        "name": "West Bengal",
+        "population": 91.3,
+        "riskLevel": 88,
+        "coordinates": [22.9868, 87.8550],
+        "districts": [
+          {
+            "name": "Kolkata",
+            "population": 4500000,
+            "riskLevel": "critical",
+            "coordinates": [22.5726, 88.3639],
+            "floodFrequency": "Annual",
+            "avgWaterLevel": 4.0,
+            "estimatedDamage": 2200000000,
+            "redevelopmentCost": 3500000000,
+            "rainfall": 420,
+            "cloudCover": 82,
+            "boundaries": [[22.68, 88.26], [22.68, 88.48], [22.46, 88.48], [22.46, 88.26], [22.68, 88.26]]
+          },
+          {
+            "name": "North 24 Parganas",
+            "population": 10000000,
+            "riskLevel": "critical",
+            "coordinates": [22.6157, 88.4332],
+            "floodFrequency": "Annual + Cyclone",
+            "avgWaterLevel": 4.3,
+            "estimatedDamage": 1950000000,
+            "redevelopmentCost": 2900000000,
+            "rainfall": 445,
+            "cloudCover": 85,
+            "boundaries": [[22.88, 88.28], [22.88, 88.72], [22.42, 88.72], [22.42, 88.28], [22.88, 88.28]]
+          }
+        ]
+      },
+      {
+        "name": "Assam",
+        "population": 31.2,
+        "riskLevel": 95,
+        "coordinates": [26.2006, 92.9376],
+        "districts": [
+          {
+            "name": "Guwahati",
+            "population": 1000000,
+            "riskLevel": "critical",
+            "coordinates": [26.1445, 91.7362],
+            "floodFrequency": "Annual",
+            "avgWaterLevel": 4.7,
+            "estimatedDamage": 850000000,
+            "redevelopmentCost": 1280000000,
+            "rainfall": 580,
+            "cloudCover": 88,
+            "boundaries": [[26.28, 91.62], [26.28, 91.86], [26.02, 91.86], [26.02, 91.62], [26.28, 91.62]]
+          },
+          {
+            "name": "Dibrugarh",
+            "population": 1300000,
+            "riskLevel": "critical",
+            "coordinates": [27.4728, 94.9120],
+            "floodFrequency": "Annual + Severe",
+            "avgWaterLevel": 5.2,
+            "estimatedDamage": 680000000,
+            "redevelopmentCost": 1050000000,
+            "rainfall": 620,
+            "cloudCover": 90,
+            "boundaries": [[27.62, 94.78], [27.62, 95.08], [27.32, 95.08], [27.32, 94.78], [27.62, 94.78]]
+          }
+        ]
+      },
+      {
+        "name": "Bihar",
+        "population": 104.0,
+        "riskLevel": 92,
+        "coordinates": [25.0961, 85.3131],
+        "districts": [
+          {
+            "name": "Patna",
+            "population": 5800000,
+            "riskLevel": "critical",
+            "coordinates": [25.5941, 85.1376],
+            "floodFrequency": "Annual",
+            "avgWaterLevel": 4.2,
+            "estimatedDamage": 1150000000,
+            "redevelopmentCost": 1750000000,
+            "rainfall": 385,
+            "cloudCover": 78,
+            "boundaries": [[25.75, 84.98], [25.75, 85.32], [25.42, 85.32], [25.42, 84.98], [25.75, 84.98]]
+          },
+          {
+            "name": "Muzaffarpur",
+            "population": 4800000,
+            "riskLevel": "critical",
+            "coordinates": [26.1225, 85.3906],
+            "floodFrequency": "Annual",
+            "avgWaterLevel": 4.6,
+            "estimatedDamage": 920000000,
+            "redevelopmentCost": 1420000000,
+            "rainfall": 395,
+            "cloudCover": 80,
+            "boundaries": [[26.28, 85.22], [26.28, 85.58], [25.95, 85.58], [25.95, 85.22], [26.28, 85.22]]
+          }
+        ]
+      }
+    ]
+  },
+  "USA": {
+    "code": "US",
+    "center": [37.0902, -95.7129],
+    "zoom": 4,
+    "avgRisk": 72,
+    "population": 331.9,
+    "area": 9833517,
+    "coastline": 19924,
+    "riverSystems": ["Mississippi", "Missouri", "Colorado", "Rio Grande"],
+    "divisions": [
+      {
+        "name": "Florida",
+        "population": 22.6,
+        "riskLevel": 88,
+        "coordinates": [27.9944, -81.7603],
+        "districts": [
+          {
+            "name": "Miami-Dade",
+            "population": 2700000,
+            "riskLevel": "high",
+            "coordinates": [25.7617, -80.1918],
+            "floodFrequency": "Hurricane Season",
+            "avgWaterLevel": 3.6,
+            "estimatedDamage": 3500000000,
+            "redevelopmentCost": 5200000000,
+            "rainfall": 380,
+            "cloudCover": 75,
+            "boundaries": [[25.98, -80.38], [25.98, -80.02], [25.55, -80.02], [25.55, -80.38], [25.98, -80.38]]
+          }
+        ]
+      }
+    ]
+  },
+  "Philippines": {
+    "code": "PH",
+    "center": [12.8797, 121.7740],
+    "zoom": 6,
+    "avgRisk": 90,
+    "population": 115.6,
+    "area": 300000,
+    "coastline": 36289,
+    "riverSystems": ["Cagayan", "Agusan", "Pampanga"],
+    "divisions": [
+      {
+        "name": "Metro Manila",
+        "population": 13.9,
+        "riskLevel": 90,
+        "coordinates": [14.5995, 120.9842],
+        "districts": [
+          {
+            "name": "Manila City",
+            "population": 1780000,
+            "riskLevel": "critical",
+            "coordinates": [14.5995, 120.9842],
+            "floodFrequency": "Monsoon + Typhoon",
+            "avgWaterLevel": 4.1,
+            "estimatedDamage": 2800000000,
+            "redevelopmentCost": 4100000000,
+            "rainfall": 520,
+            "cloudCover": 85,
+            "boundaries": [[14.72, 120.88], [14.72, 121.12], [14.48, 121.12], [14.48, 120.88], [14.72, 120.88]]
+          }
+        ]
+      }
+    ]
+  }
+}

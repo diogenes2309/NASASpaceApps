@@ -1,0 +1,966 @@
+{
+  "country": {
+    "name": "Indonesia",
+    "code": "ID",
+    "center": [
+      -2.5489,
+      118.0149
+    ],
+    "zoom": 5,
+    "bounds": {
+      "north": 6,
+      "south": -11,
+      "east": 141,
+      "west": 95
+    }
+  },
+  "statistics": {
+    "avgRisk": 72,
+    "population": 273800000,
+    "area": 1904569,
+    "coastline": 54716,
+    "floodProneArea": 156000,
+    "annualRainfall": 2702
+  },
+  "geography": {
+    "riverSystems": [
+      "Kapuas River",
+      "Mahakam River",
+      "Barito River",
+      "Musi River",
+      "Brantas River"
+    ],
+    "terrain": "Archipelago with volcanic mountains, coastal plains, and tropical rainforests",
+    "climate": "Tropical monsoon with high rainfall and humidity year-round",
+    "elevation": {
+      "highest": 4884,
+      "lowest": 0,
+      "average": 367
+    }
+  },
+  "divisions": [
+    {
+      "name": "Jakarta Special Capital Region",
+      "population": 10562000,
+      "riskLevel": 85,
+      "coordinates": [
+        -6.2088,
+        106.8456
+      ],
+      "area": 664,
+      "urbanization": 100,
+      "districts": [
+        {
+          "name": "North Jakarta",
+          "population": 1781000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -6.1384,
+            106.8639
+          ],
+          "floodFrequency": "Multiple times per year, severe during monsoon",
+          "avgWaterLevel": 2.8,
+          "estimatedDamage": 850000000,
+          "redevelopmentCost": 2100000000,
+          "rainfall": 2100,
+          "cloudCover": 72,
+          "boundaries": [
+            [
+              -6.05,
+              106.75
+            ],
+            [
+              -6.05,
+              106.95
+            ],
+            [
+              -6.2,
+              106.95
+            ],
+            [
+              -6.2,
+              106.75
+            ],
+            [
+              -6.05,
+              106.75
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 542,
+              "historical": [
+                359,
+                393,
+                427,
+                461,
+                542
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.7,
+              "historical": [
+                27.1,
+                27.5,
+                27.9,
+                28.3,
+                28.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.1
+            },
+            "soilMoisture": {
+              "current": 90.3,
+              "historical": [
+                69.8,
+                73.6,
+                77.4,
+                81.2,
+                90.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "extreme",
+              "infiltrationRate": "very poor"
+            }
+          }
+        },
+        {
+          "name": "East Jakarta",
+          "population": 2932000,
+          "riskLevel": "high",
+          "coordinates": [
+            -6.225,
+            106.9004
+          ],
+          "floodFrequency": "Annual during monsoon season",
+          "avgWaterLevel": 1.9,
+          "estimatedDamage": 620000000,
+          "redevelopmentCost": 1500000000,
+          "rainfall": 2050,
+          "cloudCover": 70,
+          "boundaries": [
+            [
+              -6.15,
+              106.85
+            ],
+            [
+              -6.15,
+              107
+            ],
+            [
+              -6.35,
+              107
+            ],
+            [
+              -6.35,
+              106.85
+            ],
+            [
+              -6.15,
+              106.85
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 518,
+              "historical": [
+                343,
+                375,
+                408,
+                440,
+                518
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.3,
+              "historical": [
+                26.7,
+                27.1,
+                27.5,
+                27.9,
+                28.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.7
+            },
+            "soilMoisture": {
+              "current": 86.2,
+              "historical": [
+                66.6,
+                70.2,
+                73.9,
+                77.5,
+                86.2
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "West Jakarta",
+          "population": 2589000,
+          "riskLevel": "high",
+          "coordinates": [
+            -6.1684,
+            106.7598
+          ],
+          "floodFrequency": "Seasonal flooding, urban drainage issues",
+          "avgWaterLevel": 1.7,
+          "estimatedDamage": 580000000,
+          "redevelopmentCost": 1400000000,
+          "rainfall": 2080,
+          "cloudCover": 71,
+          "boundaries": [
+            [
+              -6.1,
+              106.7
+            ],
+            [
+              -6.1,
+              106.85
+            ],
+            [
+              -6.25,
+              106.85
+            ],
+            [
+              -6.25,
+              106.7
+            ],
+            [
+              -6.1,
+              106.7
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 599,
+              "historical": [
+                396,
+                434,
+                471,
+                509,
+                599
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.2,
+              "historical": [
+                26.6,
+                27,
+                27.4,
+                27.8,
+                28.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.6
+            },
+            "soilMoisture": {
+              "current": 85.8,
+              "historical": [
+                66.3,
+                69.9,
+                73.5,
+                77.1,
+                85.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "West Java Province",
+      "population": 48274000,
+      "riskLevel": 68,
+      "coordinates": [
+        -7.0909,
+        107.6689
+      ],
+      "area": 35377,
+      "urbanization": 63,
+      "districts": [
+        {
+          "name": "Bandung City",
+          "population": 2444000,
+          "riskLevel": "high",
+          "coordinates": [
+            -6.9175,
+            107.6191
+          ],
+          "floodFrequency": "Flash floods during heavy rainfall",
+          "avgWaterLevel": 1.5,
+          "estimatedDamage": 420000000,
+          "redevelopmentCost": 980000000,
+          "rainfall": 2400,
+          "cloudCover": 68,
+          "boundaries": [
+            [
+              -6.85,
+              107.55
+            ],
+            [
+              -6.85,
+              107.7
+            ],
+            [
+              -6.98,
+              107.7
+            ],
+            [
+              -6.98,
+              107.55
+            ],
+            [
+              -6.85,
+              107.55
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 515,
+              "historical": [
+                341,
+                373,
+                406,
+                438,
+                515
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.8,
+              "historical": [
+                28.2,
+                28.6,
+                29,
+                29.4,
+                29.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.2
+            },
+            "soilMoisture": {
+              "current": 87.3,
+              "historical": [
+                67.5,
+                71.1,
+                74.8,
+                78.5,
+                87.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Karawang Regency",
+          "population": 2313000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -6.3063,
+            107.3019
+          ],
+          "floodFrequency": "Severe annual flooding, coastal inundation",
+          "avgWaterLevel": 2.4,
+          "estimatedDamage": 680000000,
+          "redevelopmentCost": 1600000000,
+          "rainfall": 1950,
+          "cloudCover": 70,
+          "boundaries": [
+            [
+              -6.15,
+              107.15
+            ],
+            [
+              -6.15,
+              107.5
+            ],
+            [
+              -6.5,
+              107.5
+            ],
+            [
+              -6.5,
+              107.15
+            ],
+            [
+              -6.15,
+              107.15
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 548,
+              "historical": [
+                363,
+                398,
+                432,
+                466,
+                548
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.1,
+              "historical": [
+                27.5,
+                27.9,
+                28.3,
+                28.7,
+                29.1
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.5
+            },
+            "soilMoisture": {
+              "current": 86.3,
+              "historical": [
+                66.7,
+                70.3,
+                73.9,
+                77.6,
+                86.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Central Java Province",
+      "population": 36516000,
+      "riskLevel": 65,
+      "coordinates": [
+        -7.15,
+        110.1403
+      ],
+      "area": 32800,
+      "urbanization": 52,
+      "districts": [
+        {
+          "name": "Semarang City",
+          "population": 1653000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -6.9667,
+            110.4167
+          ],
+          "floodFrequency": "Tidal flooding and land subsidence issues",
+          "avgWaterLevel": 2.2,
+          "estimatedDamage": 540000000,
+          "redevelopmentCost": 1300000000,
+          "rainfall": 2100,
+          "cloudCover": 69,
+          "boundaries": [
+            [
+              -6.9,
+              110.35
+            ],
+            [
+              -6.9,
+              110.5
+            ],
+            [
+              -7.05,
+              110.5
+            ],
+            [
+              -7.05,
+              110.35
+            ],
+            [
+              -6.9,
+              110.35
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 530,
+              "historical": [
+                351,
+                385,
+                418,
+                451,
+                530
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.1,
+              "historical": [
+                27.5,
+                27.9,
+                28.3,
+                28.7,
+                29.1
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.5
+            },
+            "soilMoisture": {
+              "current": 88.7,
+              "historical": [
+                68.5,
+                72.3,
+                76,
+                79.7,
+                88.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        },
+        {
+          "name": "Demak Regency",
+          "population": 1160000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -6.8908,
+            110.6396
+          ],
+          "floodFrequency": "Coastal flooding, severe land subsidence",
+          "avgWaterLevel": 2.6,
+          "estimatedDamage": 480000000,
+          "redevelopmentCost": 1100000000,
+          "rainfall": 2050,
+          "cloudCover": 70,
+          "boundaries": [
+            [
+              -6.75,
+              110.5
+            ],
+            [
+              -6.75,
+              110.8
+            ],
+            [
+              -7.05,
+              110.8
+            ],
+            [
+              -7.05,
+              110.5
+            ],
+            [
+              -6.75,
+              110.5
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 525,
+              "historical": [
+                348,
+                381,
+                414,
+                446,
+                525
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.4,
+              "historical": [
+                26.8,
+                27.2,
+                27.6,
+                28,
+                28.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.8
+            },
+            "soilMoisture": {
+              "current": 87.8,
+              "historical": [
+                67.9,
+                71.5,
+                75.2,
+                78.9,
+                87.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "East Java Province",
+      "population": 40665000,
+      "riskLevel": 62,
+      "coordinates": [
+        -7.5361,
+        112.2384
+      ],
+      "area": 47800,
+      "urbanization": 56,
+      "districts": [
+        {
+          "name": "Surabaya City",
+          "population": 2874000,
+          "riskLevel": "high",
+          "coordinates": [
+            -7.2504,
+            112.7688
+          ],
+          "floodFrequency": "Urban flooding during monsoon",
+          "avgWaterLevel": 1.8,
+          "estimatedDamage": 620000000,
+          "redevelopmentCost": 1500000000,
+          "rainfall": 1850,
+          "cloudCover": 67,
+          "boundaries": [
+            [
+              -7.15,
+              112.65
+            ],
+            [
+              -7.15,
+              112.85
+            ],
+            [
+              -7.35,
+              112.85
+            ],
+            [
+              -7.35,
+              112.65
+            ],
+            [
+              -7.15,
+              112.65
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 588,
+              "historical": [
+                390,
+                426,
+                463,
+                500,
+                588
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.3,
+              "historical": [
+                26.7,
+                27.1,
+                27.5,
+                27.9,
+                28.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.7
+            },
+            "soilMoisture": {
+              "current": 87.4,
+              "historical": [
+                67.5,
+                71.2,
+                74.9,
+                78.6,
+                87.4
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Lamongan Regency",
+          "population": 1179000,
+          "riskLevel": "high",
+          "coordinates": [
+            -7.1167,
+            112.4167
+          ],
+          "floodFrequency": "Coastal and riverine flooding",
+          "avgWaterLevel": 2,
+          "estimatedDamage": 420000000,
+          "redevelopmentCost": 950000000,
+          "rainfall": 1900,
+          "cloudCover": 68,
+          "boundaries": [
+            [
+              -6.95,
+              112.25
+            ],
+            [
+              -6.95,
+              112.6
+            ],
+            [
+              -7.3,
+              112.6
+            ],
+            [
+              -7.3,
+              112.25
+            ],
+            [
+              -6.95,
+              112.25
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 506,
+              "historical": [
+                335,
+                367,
+                398,
+                430,
+                506
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.7,
+              "historical": [
+                28.1,
+                28.5,
+                28.9,
+                29.3,
+                29.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.1
+            },
+            "soilMoisture": {
+              "current": 86.6,
+              "historical": [
+                66.9,
+                70.6,
+                74.2,
+                77.8,
+                86.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "South Kalimantan Province",
+      "population": 4182000,
+      "riskLevel": 78,
+      "coordinates": [
+        -3.0926,
+        115.2838
+      ],
+      "area": 38744,
+      "urbanization": 45,
+      "districts": [
+        {
+          "name": "Banjarmasin City",
+          "population": 657000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -3.3194,
+            114.5903
+          ],
+          "floodFrequency": "Extreme annual flooding, river city",
+          "avgWaterLevel": 3.2,
+          "estimatedDamage": 380000000,
+          "redevelopmentCost": 900000000,
+          "rainfall": 2900,
+          "cloudCover": 75,
+          "boundaries": [
+            [
+              -3.25,
+              114.5
+            ],
+            [
+              -3.25,
+              114.65
+            ],
+            [
+              -3.38,
+              114.65
+            ],
+            [
+              -3.38,
+              114.5
+            ],
+            [
+              -3.25,
+              114.5
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 592,
+              "historical": [
+                392,
+                429,
+                466,
+                503,
+                592
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.7,
+              "historical": [
+                27.1,
+                27.5,
+                27.9,
+                28.3,
+                28.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.1
+            },
+            "soilMoisture": {
+              "current": 87.5,
+              "historical": [
+                67.6,
+                71.3,
+                75,
+                78.6,
+                87.5
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Barito Kuala Regency",
+          "population": 311000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -3.2667,
+            114.65
+          ],
+          "floodFrequency": "Perpetual flooding risk, swamp region",
+          "avgWaterLevel": 2.9,
+          "estimatedDamage": 280000000,
+          "redevelopmentCost": 650000000,
+          "rainfall": 3000,
+          "cloudCover": 76,
+          "boundaries": [
+            [
+              -3.1,
+              114.5
+            ],
+            [
+              -3.1,
+              114.8
+            ],
+            [
+              -3.45,
+              114.8
+            ],
+            [
+              -3.45,
+              114.5
+            ],
+            [
+              -3.1,
+              114.5
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 577,
+              "historical": [
+                382,
+                418,
+                454,
+                490,
+                577
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.2,
+              "historical": [
+                27.6,
+                28,
+                28.4,
+                28.8,
+                29.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.6
+            },
+            "soilMoisture": {
+              "current": 85.7,
+              "historical": [
+                66.2,
+                69.8,
+                73.4,
+                77,
+                85.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

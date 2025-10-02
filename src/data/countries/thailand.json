@@ -1,0 +1,393 @@
+{
+  "country": {
+    "name": "Thailand",
+    "code": "TH",
+    "center": [
+      15.87,
+      100.9925
+    ],
+    "zoom": 6,
+    "bounds": {
+      "north": 20.4648,
+      "south": 5.613,
+      "east": 105.6394,
+      "west": 97.3438
+    }
+  },
+  "statistics": {
+    "avgRisk": 84,
+    "population": 71600000,
+    "area": 513120,
+    "coastline": 3219,
+    "floodProneArea": 180000,
+    "annualRainfall": 1500
+  },
+  "geography": {
+    "riverSystems": [
+      "Chao Phraya",
+      "Mekong",
+      "Salween",
+      "Chi"
+    ],
+    "terrain": "Central plains, mountains, plateau",
+    "climate": "Tropical monsoon",
+    "elevation": {
+      "highest": 2565,
+      "lowest": 0,
+      "average": 287
+    }
+  },
+  "divisions": [
+    {
+      "name": "Bangkok Metropolitan",
+      "population": 10600000,
+      "riskLevel": 91,
+      "coordinates": [
+        13.7563,
+        100.5018
+      ],
+      "area": 1569,
+      "urbanization": 100,
+      "districts": [
+        {
+          "name": "Bangkok Central",
+          "population": 5600000,
+          "riskLevel": "critical",
+          "coordinates": [
+            13.7563,
+            100.5018
+          ],
+          "floodFrequency": "Annual Monsoon",
+          "avgWaterLevel": 4.3,
+          "estimatedDamage": 3800000000,
+          "redevelopmentCost": 5900000000,
+          "rainfall": 535,
+          "cloudCover": 84,
+          "boundaries": [
+            [
+              13.92,
+              100.38
+            ],
+            [
+              13.92,
+              100.68
+            ],
+            [
+              13.58,
+              100.68
+            ],
+            [
+              13.58,
+              100.38
+            ],
+            [
+              13.92,
+              100.38
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 432,
+              "historical": [
+                286,
+                313,
+                340,
+                367,
+                432
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 32.1,
+              "historical": [
+                30.5,
+                30.9,
+                31.3,
+                31.7,
+                32.1
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39
+            },
+            "soilMoisture": {
+              "current": 79.9,
+              "historical": [
+                61.7,
+                65.1,
+                68.5,
+                71.8,
+                79.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Nonthaburi",
+          "population": 1260000,
+          "riskLevel": "critical",
+          "coordinates": [
+            13.8591,
+            100.5253
+          ],
+          "floodFrequency": "Annual Monsoon",
+          "avgWaterLevel": 4.1,
+          "estimatedDamage": 1450000000,
+          "redevelopmentCost": 2250000000,
+          "rainfall": 520,
+          "cloudCover": 82,
+          "boundaries": [
+            [
+              14.05,
+              100.42
+            ],
+            [
+              14.05,
+              100.68
+            ],
+            [
+              13.72,
+              100.68
+            ],
+            [
+              13.72,
+              100.42
+            ],
+            [
+              14.05,
+              100.42
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 405,
+              "historical": [
+                268,
+                293,
+                319,
+                344,
+                405
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.2,
+              "historical": [
+                29.6,
+                30,
+                30.4,
+                30.8,
+                31.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38
+            },
+            "soilMoisture": {
+              "current": 75.9,
+              "historical": [
+                58.7,
+                61.8,
+                65,
+                68.2,
+                75.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ayutthaya",
+      "population": 800000,
+      "riskLevel": 93,
+      "coordinates": [
+        14.3532,
+        100.5775
+      ],
+      "area": 2557,
+      "urbanization": 42,
+      "districts": [
+        {
+          "name": "Ayutthaya City",
+          "population": 80000,
+          "riskLevel": "critical",
+          "coordinates": [
+            14.3532,
+            100.5775
+          ],
+          "floodFrequency": "Annual Severe",
+          "avgWaterLevel": 4.8,
+          "estimatedDamage": 980000000,
+          "redevelopmentCost": 1520000000,
+          "rainfall": 550,
+          "cloudCover": 86,
+          "boundaries": [
+            [
+              14.52,
+              100.45
+            ],
+            [
+              14.52,
+              100.72
+            ],
+            [
+              14.18,
+              100.72
+            ],
+            [
+              14.18,
+              100.45
+            ],
+            [
+              14.52,
+              100.45
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 454,
+              "historical": [
+                300,
+                329,
+                357,
+                385,
+                454
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.7,
+              "historical": [
+                29.1,
+                29.5,
+                29.9,
+                30.3,
+                30.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.6
+            },
+            "soilMoisture": {
+              "current": 81.7,
+              "historical": [
+                63.1,
+                66.6,
+                70,
+                73.4,
+                81.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chiang Mai",
+      "population": 1790000,
+      "riskLevel": 76,
+      "coordinates": [
+        18.7883,
+        98.9853
+      ],
+      "area": 20107,
+      "urbanization": 38,
+      "districts": [
+        {
+          "name": "Chiang Mai City",
+          "population": 130000,
+          "riskLevel": "medium",
+          "coordinates": [
+            18.7883,
+            98.9853
+          ],
+          "floodFrequency": "Seasonal",
+          "avgWaterLevel": 2.9,
+          "estimatedDamage": 420000000,
+          "redevelopmentCost": 650000000,
+          "rainfall": 395,
+          "cloudCover": 72,
+          "boundaries": [
+            [
+              18.95,
+              98.85
+            ],
+            [
+              18.95,
+              99.15
+            ],
+            [
+              18.62,
+              99.15
+            ],
+            [
+              18.62,
+              98.85
+            ],
+            [
+              18.95,
+              98.85
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 398,
+              "historical": [
+                263,
+                288,
+                313,
+                337,
+                398
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.4%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 32.5,
+              "historical": [
+                30.9,
+                31.3,
+                31.7,
+                32.1,
+                32.5
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39.4
+            },
+            "soilMoisture": {
+              "current": 84.7,
+              "historical": [
+                65.5,
+                69,
+                72.6,
+                76.1,
+                84.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

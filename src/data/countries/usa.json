@@ -1,0 +1,719 @@
+{
+  "country": {
+    "name": "USA",
+    "code": "US",
+    "center": [
+      37.0902,
+      -95.7129
+    ],
+    "zoom": 4,
+    "bounds": {
+      "north": 49.3845,
+      "south": 24.521,
+      "east": -66.9346,
+      "west": -124.7844
+    }
+  },
+  "statistics": {
+    "avgRisk": 72,
+    "population": 331900000,
+    "area": 9833517,
+    "coastline": 19924,
+    "floodProneArea": 450000,
+    "annualRainfall": 760
+  },
+  "geography": {
+    "riverSystems": [
+      "Mississippi",
+      "Missouri",
+      "Colorado",
+      "Rio Grande",
+      "Columbia"
+    ],
+    "terrain": "Vast plains, mountains, deserts",
+    "climate": "Temperate to tropical",
+    "elevation": {
+      "highest": 6190,
+      "lowest": -86,
+      "average": 760
+    }
+  },
+  "divisions": [
+    {
+      "name": "Florida",
+      "population": 22600000,
+      "riskLevel": 88,
+      "coordinates": [
+        27.9944,
+        -81.7603
+      ],
+      "area": 170312,
+      "urbanization": 91,
+      "districts": [
+        {
+          "name": "Miami-Dade",
+          "population": 2700000,
+          "riskLevel": "high",
+          "coordinates": [
+            25.7617,
+            -80.1918
+          ],
+          "floodFrequency": "Hurricane Season",
+          "avgWaterLevel": 3.6,
+          "estimatedDamage": 3500000000,
+          "redevelopmentCost": 5200000000,
+          "rainfall": 380,
+          "cloudCover": 75,
+          "boundaries": [
+            [
+              25.98,
+              -80.38
+            ],
+            [
+              25.98,
+              -80.02
+            ],
+            [
+              25.55,
+              -80.02
+            ],
+            [
+              25.55,
+              -80.38
+            ],
+            [
+              25.98,
+              -80.38
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 350,
+              "historical": [
+                232,
+                253,
+                275,
+                297,
+                350
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.1,
+              "historical": [
+                28.5,
+                28.9,
+                29.3,
+                29.7,
+                30.1
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.9
+            },
+            "soilMoisture": {
+              "current": 75.6,
+              "historical": [
+                58.4,
+                61.6,
+                64.8,
+                67.9,
+                75.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          }
+        },
+        {
+          "name": "Broward",
+          "population": 1950000,
+          "riskLevel": "high",
+          "coordinates": [
+            26.1224,
+            -80.1373
+          ],
+          "floodFrequency": "Hurricane Season",
+          "avgWaterLevel": 3.4,
+          "estimatedDamage": 2800000000,
+          "redevelopmentCost": 4200000000,
+          "rainfall": 365,
+          "cloudCover": 73,
+          "boundaries": [
+            [
+              26.35,
+              -80.35
+            ],
+            [
+              26.35,
+              -79.98
+            ],
+            [
+              25.9,
+              -79.98
+            ],
+            [
+              25.9,
+              -80.35
+            ],
+            [
+              26.35,
+              -80.35
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 422,
+              "historical": [
+                279,
+                305,
+                332,
+                358,
+                422
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.2,
+              "historical": [
+                29.6,
+                30,
+                30.4,
+                30.8,
+                31.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38
+            },
+            "soilMoisture": {
+              "current": 79,
+              "historical": [
+                61.1,
+                64.4,
+                67.7,
+                71,
+                79
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Tampa",
+          "population": 3200000,
+          "riskLevel": "high",
+          "coordinates": [
+            27.9506,
+            -82.4572
+          ],
+          "floodFrequency": "Hurricane + Coastal",
+          "avgWaterLevel": 3.2,
+          "estimatedDamage": 2200000000,
+          "redevelopmentCost": 3400000000,
+          "rainfall": 355,
+          "cloudCover": 72,
+          "boundaries": [
+            [
+              28.15,
+              -82.65
+            ],
+            [
+              28.15,
+              -82.28
+            ],
+            [
+              27.75,
+              -82.28
+            ],
+            [
+              27.75,
+              -82.65
+            ],
+            [
+              28.15,
+              -82.65
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 404,
+              "historical": [
+                267,
+                292,
+                318,
+                343,
+                404
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.1,
+              "historical": [
+                28.5,
+                28.9,
+                29.3,
+                29.7,
+                30.1
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.9
+            },
+            "soilMoisture": {
+              "current": 79.8,
+              "historical": [
+                61.7,
+                65,
+                68.4,
+                71.7,
+                79.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Louisiana",
+      "population": 4600000,
+      "riskLevel": 92,
+      "coordinates": [
+        30.9843,
+        -91.9623
+      ],
+      "area": 135659,
+      "urbanization": 73,
+      "districts": [
+        {
+          "name": "New Orleans",
+          "population": 390000,
+          "riskLevel": "critical",
+          "coordinates": [
+            29.9511,
+            -90.0715
+          ],
+          "floodFrequency": "Hurricane + River",
+          "avgWaterLevel": 4.8,
+          "estimatedDamage": 4200000000,
+          "redevelopmentCost": 6800000000,
+          "rainfall": 425,
+          "cloudCover": 82,
+          "boundaries": [
+            [
+              30.12,
+              -90.28
+            ],
+            [
+              30.12,
+              -89.85
+            ],
+            [
+              29.78,
+              -89.85
+            ],
+            [
+              29.78,
+              -90.28
+            ],
+            [
+              30.12,
+              -90.28
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 401,
+              "historical": [
+                266,
+                291,
+                316,
+                341,
+                401
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.4,
+              "historical": [
+                29.8,
+                30.2,
+                30.6,
+                31,
+                31.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.2
+            },
+            "soilMoisture": {
+              "current": 81.9,
+              "historical": [
+                63.3,
+                66.7,
+                70.2,
+                73.6,
+                81.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Baton Rouge",
+          "population": 850000,
+          "riskLevel": "high",
+          "coordinates": [
+            30.4515,
+            -91.1871
+          ],
+          "floodFrequency": "River + Hurricane",
+          "avgWaterLevel": 3.9,
+          "estimatedDamage": 1850000000,
+          "redevelopmentCost": 2900000000,
+          "rainfall": 405,
+          "cloudCover": 79,
+          "boundaries": [
+            [
+              30.62,
+              -91.38
+            ],
+            [
+              30.62,
+              -91.02
+            ],
+            [
+              30.28,
+              -91.02
+            ],
+            [
+              30.28,
+              -91.38
+            ],
+            [
+              30.62,
+              -91.38
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 448,
+              "historical": [
+                297,
+                325,
+                353,
+                381,
+                448
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.8,
+              "historical": [
+                30.2,
+                30.6,
+                31,
+                31.4,
+                31.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.6
+            },
+            "soilMoisture": {
+              "current": 81.3,
+              "historical": [
+                62.8,
+                66.2,
+                69.7,
+                73.1,
+                81.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Texas",
+      "population": 30500000,
+      "riskLevel": 78,
+      "coordinates": [
+        31.9686,
+        -99.9018
+      ],
+      "area": 695662,
+      "urbanization": 85,
+      "districts": [
+        {
+          "name": "Houston",
+          "population": 2300000,
+          "riskLevel": "high",
+          "coordinates": [
+            29.7604,
+            -95.3698
+          ],
+          "floodFrequency": "Hurricane + Flash",
+          "avgWaterLevel": 3.8,
+          "estimatedDamage": 5200000000,
+          "redevelopmentCost": 8100000000,
+          "rainfall": 395,
+          "cloudCover": 76,
+          "boundaries": [
+            [
+              30.08,
+              -95.72
+            ],
+            [
+              30.08,
+              -95.05
+            ],
+            [
+              29.45,
+              -95.05
+            ],
+            [
+              29.45,
+              -95.72
+            ],
+            [
+              30.08,
+              -95.72
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 440,
+              "historical": [
+                291,
+                318,
+                346,
+                373,
+                440
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30,
+              "historical": [
+                28.4,
+                28.8,
+                29.2,
+                29.6,
+                30
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.8
+            },
+            "soilMoisture": {
+              "current": 77.6,
+              "historical": [
+                60,
+                63.2,
+                66.5,
+                69.7,
+                77.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          }
+        },
+        {
+          "name": "Galveston",
+          "population": 330000,
+          "riskLevel": "critical",
+          "coordinates": [
+            29.3013,
+            -94.7977
+          ],
+          "floodFrequency": "Hurricane + Coastal",
+          "avgWaterLevel": 4.5,
+          "estimatedDamage": 1980000000,
+          "redevelopmentCost": 3200000000,
+          "rainfall": 410,
+          "cloudCover": 79,
+          "boundaries": [
+            [
+              29.48,
+              -95.05
+            ],
+            [
+              29.48,
+              -94.58
+            ],
+            [
+              29.12,
+              -94.58
+            ],
+            [
+              29.12,
+              -95.05
+            ],
+            [
+              29.48,
+              -95.05
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 447,
+              "historical": [
+                296,
+                324,
+                352,
+                380,
+                447
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.3,
+              "historical": [
+                28.7,
+                29.1,
+                29.5,
+                29.9,
+                30.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.1
+            },
+            "soilMoisture": {
+              "current": 83.3,
+              "historical": [
+                64.4,
+                67.9,
+                71.4,
+                74.9,
+                83.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "California",
+      "population": 39200000,
+      "riskLevel": 75,
+      "coordinates": [
+        36.7783,
+        -119.4179
+      ],
+      "area": 423967,
+      "urbanization": 95,
+      "districts": [
+        {
+          "name": "Sacramento Valley",
+          "population": 2400000,
+          "riskLevel": "high",
+          "coordinates": [
+            38.5816,
+            -121.4944
+          ],
+          "floodFrequency": "River + Atmospheric",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 2800000000,
+          "redevelopmentCost": 4300000000,
+          "rainfall": 320,
+          "cloudCover": 68,
+          "boundaries": [
+            [
+              38.82,
+              -121.72
+            ],
+            [
+              38.82,
+              -121.28
+            ],
+            [
+              38.35,
+              -121.28
+            ],
+            [
+              38.35,
+              -121.72
+            ],
+            [
+              38.82,
+              -121.72
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 193,
+              "historical": [
+                127,
+                139,
+                151,
+                163,
+                193
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.7%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.5,
+              "historical": [
+                26.9,
+                27.3,
+                27.7,
+                28.1,
+                28.5
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 33.7
+            },
+            "soilMoisture": {
+              "current": 48.2,
+              "historical": [
+                37.2,
+                39.3,
+                41.3,
+                43.3,
+                48.2
+              ],
+              "trend": "increasing",
+              "saturationLevel": "low",
+              "infiltrationRate": "good"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

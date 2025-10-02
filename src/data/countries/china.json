@@ -1,0 +1,394 @@
+{
+  "country": {
+    "name": "China",
+    "code": "CN",
+    "center": [
+      35.8617,
+      104.1954
+    ],
+    "zoom": 4,
+    "bounds": {
+      "north": 53.5608,
+      "south": 18.1973,
+      "east": 134.7728,
+      "west": 73.4994
+    }
+  },
+  "statistics": {
+    "avgRisk": 79,
+    "population": 1412000000,
+    "area": 9596961,
+    "coastline": 14500,
+    "floodProneArea": 890000,
+    "annualRainfall": 645
+  },
+  "geography": {
+    "riverSystems": [
+      "Yangtze",
+      "Yellow River",
+      "Pearl River",
+      "Mekong",
+      "Brahmaputra"
+    ],
+    "terrain": "Mountains, plateaus, plains, deserts",
+    "climate": "Diverse - tropical to subarctic",
+    "elevation": {
+      "highest": 8849,
+      "lowest": -154,
+      "average": 1840
+    }
+  },
+  "divisions": [
+    {
+      "name": "Guangdong",
+      "population": 126800000,
+      "riskLevel": 85,
+      "coordinates": [
+        23.379,
+        113.7633
+      ],
+      "area": 179800,
+      "urbanization": 71,
+      "districts": [
+        {
+          "name": "Guangzhou",
+          "population": 18700000,
+          "riskLevel": "high",
+          "coordinates": [
+            23.1291,
+            113.2644
+          ],
+          "floodFrequency": "Monsoon + Typhoon",
+          "avgWaterLevel": 3.8,
+          "estimatedDamage": 4200000000,
+          "redevelopmentCost": 6500000000,
+          "rainfall": 485,
+          "cloudCover": 78,
+          "boundaries": [
+            [
+              23.42,
+              113.05
+            ],
+            [
+              23.42,
+              113.52
+            ],
+            [
+              22.85,
+              113.52
+            ],
+            [
+              22.85,
+              113.05
+            ],
+            [
+              23.42,
+              113.05
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 487,
+              "historical": [
+                323,
+                353,
+                383,
+                414,
+                487
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.3,
+              "historical": [
+                29.7,
+                30.1,
+                30.5,
+                30.9,
+                31.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.2
+            },
+            "soilMoisture": {
+              "current": 83.1,
+              "historical": [
+                64.2,
+                67.7,
+                71.2,
+                74.7,
+                83.1
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Shenzhen",
+          "population": 17500000,
+          "riskLevel": "high",
+          "coordinates": [
+            22.5431,
+            114.0579
+          ],
+          "floodFrequency": "Typhoon + Coastal",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 5800000000,
+          "redevelopmentCost": 8900000000,
+          "rainfall": 465,
+          "cloudCover": 76,
+          "boundaries": [
+            [
+              22.82,
+              113.85
+            ],
+            [
+              22.82,
+              114.32
+            ],
+            [
+              22.28,
+              114.32
+            ],
+            [
+              22.28,
+              113.85
+            ],
+            [
+              22.82,
+              113.85
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 397,
+              "historical": [
+                263,
+                288,
+                313,
+                337,
+                397
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.8,
+              "historical": [
+                30.2,
+                30.6,
+                31,
+                31.4,
+                31.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.7
+            },
+            "soilMoisture": {
+              "current": 79.7,
+              "historical": [
+                61.6,
+                64.9,
+                68.3,
+                71.6,
+                79.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zhejiang",
+      "population": 64600000,
+      "riskLevel": 83,
+      "coordinates": [
+        29.1832,
+        120.0934
+      ],
+      "area": 105500,
+      "urbanization": 68,
+      "districts": [
+        {
+          "name": "Hangzhou",
+          "population": 12200000,
+          "riskLevel": "high",
+          "coordinates": [
+            30.2741,
+            120.1551
+          ],
+          "floodFrequency": "Seasonal + Typhoon",
+          "avgWaterLevel": 3.6,
+          "estimatedDamage": 3400000000,
+          "redevelopmentCost": 5200000000,
+          "rainfall": 505,
+          "cloudCover": 80,
+          "boundaries": [
+            [
+              30.52,
+              119.95
+            ],
+            [
+              30.52,
+              120.42
+            ],
+            [
+              30.02,
+              120.42
+            ],
+            [
+              30.02,
+              119.95
+            ],
+            [
+              30.52,
+              119.95
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 496,
+              "historical": [
+                328,
+                359,
+                390,
+                421,
+                496
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.8,
+              "historical": [
+                29.2,
+                29.6,
+                30,
+                30.4,
+                30.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.7
+            },
+            "soilMoisture": {
+              "current": 84.9,
+              "historical": [
+                65.6,
+                69.2,
+                72.7,
+                76.3,
+                84.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hubei",
+      "population": 57800000,
+      "riskLevel": 88,
+      "coordinates": [
+        30.9756,
+        112.2707
+      ],
+      "area": 185900,
+      "urbanization": 61,
+      "districts": [
+        {
+          "name": "Wuhan",
+          "population": 13400000,
+          "riskLevel": "critical",
+          "coordinates": [
+            30.5928,
+            114.3055
+          ],
+          "floodFrequency": "Annual River",
+          "avgWaterLevel": 4.5,
+          "estimatedDamage": 3900000000,
+          "redevelopmentCost": 6100000000,
+          "rainfall": 445,
+          "cloudCover": 82,
+          "boundaries": [
+            [
+              30.82,
+              114.08
+            ],
+            [
+              30.82,
+              114.58
+            ],
+            [
+              30.35,
+              114.58
+            ],
+            [
+              30.35,
+              114.08
+            ],
+            [
+              30.82,
+              114.08
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 460,
+              "historical": [
+                305,
+                333,
+                362,
+                391,
+                460
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.8,
+              "historical": [
+                30.2,
+                30.6,
+                31,
+                31.4,
+                31.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.7
+            },
+            "soilMoisture": {
+              "current": 84.7,
+              "historical": [
+                65.5,
+                69,
+                72.6,
+                76.1,
+                84.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

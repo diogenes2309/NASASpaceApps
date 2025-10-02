@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-02",
+  "countries": [
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "code": "BD",
+      "dataFile": "bangladesh.json",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "code": "IN",
+      "dataFile": "india.json",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "code": "US",
+      "dataFile": "usa.json",
+      "enabled": true,
+      "priority": 3
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "code": "PH",
+      "dataFile": "philippines.json",
+      "enabled": true,
+      "priority": 4
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "code": "CN",
+      "dataFile": "china.json",
+      "enabled": true,
+      "priority": 5
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "code": "TH",
+      "dataFile": "thailand.json",
+      "enabled": true,
+      "priority": 6
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "code": "VN",
+      "dataFile": "vietnam.json",
+      "enabled": true,
+      "priority": 7
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "code": "ID",
+      "dataFile": "indonesia.json",
+      "enabled": true,
+      "priority": 8
+    },
+    {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "code": "PK",
+      "dataFile": "pakistan.json",
+      "enabled": true,
+      "priority": 9
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar",
+      "code": "MM",
+      "dataFile": "myanmar.json",
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "code": "BR",
+      "dataFile": "brazil.json",
+      "enabled": true,
+      "priority": 11
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "code": "JP",
+      "dataFile": "japan.json",
+      "enabled": true,
+      "priority": 12
+    }
+  ]
+}

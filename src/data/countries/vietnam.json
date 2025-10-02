@@ -1,0 +1,314 @@
+{
+  "country": {
+    "name": "Vietnam",
+    "code": "VN",
+    "center": [
+      14.0583,
+      108.2772
+    ],
+    "zoom": 6,
+    "bounds": {
+      "north": 23.3927,
+      "south": 8.179,
+      "east": 109.4647,
+      "west": 102.144
+    }
+  },
+  "statistics": {
+    "avgRisk": 86,
+    "population": 98200000,
+    "area": 331212,
+    "coastline": 3444,
+    "floodProneArea": 210000,
+    "annualRainfall": 1821
+  },
+  "geography": {
+    "riverSystems": [
+      "Mekong",
+      "Red River",
+      "Dong Nai"
+    ],
+    "terrain": "Low deltas, highlands, mountains",
+    "climate": "Tropical monsoon",
+    "elevation": {
+      "highest": 3144,
+      "lowest": 0,
+      "average": 398
+    }
+  },
+  "divisions": [
+    {
+      "name": "Ho Chi Minh City",
+      "population": 9000000,
+      "riskLevel": 89,
+      "coordinates": [
+        10.8231,
+        106.6297
+      ],
+      "area": 2061,
+      "urbanization": 100,
+      "districts": [
+        {
+          "name": "District 1",
+          "population": 200000,
+          "riskLevel": "high",
+          "coordinates": [
+            10.7769,
+            106.7009
+          ],
+          "floodFrequency": "Monsoon + Tidal",
+          "avgWaterLevel": 3.7,
+          "estimatedDamage": 2800000000,
+          "redevelopmentCost": 4300000000,
+          "rainfall": 495,
+          "cloudCover": 80,
+          "boundaries": [
+            [
+              10.82,
+              106.65
+            ],
+            [
+              10.82,
+              106.75
+            ],
+            [
+              10.73,
+              106.75
+            ],
+            [
+              10.73,
+              106.65
+            ],
+            [
+              10.82,
+              106.65
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 364,
+              "historical": [
+                241,
+                264,
+                286,
+                309,
+                364
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.4,
+              "historical": [
+                28.8,
+                29.2,
+                29.6,
+                30,
+                30.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.2
+            },
+            "soilMoisture": {
+              "current": 77.9,
+              "historical": [
+                60.2,
+                63.5,
+                66.7,
+                70,
+                77.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "population": 8200000,
+      "riskLevel": 84,
+      "coordinates": [
+        21.0285,
+        105.8542
+      ],
+      "area": 3359,
+      "urbanization": 100,
+      "districts": [
+        {
+          "name": "Hoan Kiem",
+          "population": 140000,
+          "riskLevel": "high",
+          "coordinates": [
+            21.0285,
+            105.8542
+          ],
+          "floodFrequency": "Seasonal River",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 1850000000,
+          "redevelopmentCost": 2900000000,
+          "rainfall": 465,
+          "cloudCover": 78,
+          "boundaries": [
+            [
+              21.08,
+              105.82
+            ],
+            [
+              21.08,
+              105.9
+            ],
+            [
+              20.98,
+              105.9
+            ],
+            [
+              20.98,
+              105.82
+            ],
+            [
+              21.08,
+              105.82
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 395,
+              "historical": [
+                261,
+                286,
+                311,
+                335,
+                395
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.3,
+              "historical": [
+                29.7,
+                30.1,
+                30.5,
+                30.9,
+                31.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.1
+            },
+            "soilMoisture": {
+              "current": 77.5,
+              "historical": [
+                59.9,
+                63.1,
+                66.4,
+                69.7,
+                77.5
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mekong Delta",
+      "population": 17500000,
+      "riskLevel": 92,
+      "coordinates": [
+        10.0452,
+        105.7469
+      ],
+      "area": 39000,
+      "urbanization": 28,
+      "districts": [
+        {
+          "name": "Can Tho",
+          "population": 1250000,
+          "riskLevel": "critical",
+          "coordinates": [
+            10.0452,
+            105.7469
+          ],
+          "floodFrequency": "Annual + Seasonal",
+          "avgWaterLevel": 4.6,
+          "estimatedDamage": 1450000000,
+          "redevelopmentCost": 2250000000,
+          "rainfall": 520,
+          "cloudCover": 84,
+          "boundaries": [
+            [
+              10.22,
+              105.62
+            ],
+            [
+              10.22,
+              105.9
+            ],
+            [
+              9.88,
+              105.9
+            ],
+            [
+              9.88,
+              105.62
+            ],
+            [
+              10.22,
+              105.62
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 382,
+              "historical": [
+                253,
+                277,
+                300,
+                324,
+                382
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.8,
+              "historical": [
+                29.2,
+                29.6,
+                30,
+                30.4,
+                30.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.6
+            },
+            "soilMoisture": {
+              "current": 76.2,
+              "historical": [
+                58.9,
+                62.1,
+                65.3,
+                68.5,
+                76.2
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

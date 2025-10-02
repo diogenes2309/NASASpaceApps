@@ -1,0 +1,796 @@
+{
+  "country": {
+    "name": "Bangladesh",
+    "code": "BD",
+    "center": [23.8103, 90.4125],
+    "zoom": 7,
+    "bounds": {
+      "north": 26.6318,
+      "south": 20.7430,
+      "east": 92.6734,
+      "west": 88.0086
+    }
+  },
+  "statistics": {
+    "avgRisk": 88,
+    "population": 169400000, 
+    "area": 148460,
+    "coastline": 580,
+    "floodProneArea": 85000,
+    "annualRainfall": 2200
+  },
+  "geography": {
+    "riverSystems": ["Ganges-Brahmaputra-Meghna", "Padma", "Jamuna", "Surma", "Meghna"],
+    "terrain": "Low-lying deltaic plains",
+    "climate": "Tropical monsoon",
+    "elevation": {
+      "highest": 1064,
+      "lowest": 0,
+      "average": 85
+    }
+  },
+  "floodZones": [
+    {
+      "id": "bd-dhaka-metro",
+      "name": "Dhaka Metropolitan Flood Zone",
+      "severity": "critical",
+      "riskScore": 91,
+      "populationAtRisk": 4200000,
+      "areaAffected": 380,
+      "predictedAccuracy": 92,
+      "estimatedDamage": 1800000000,
+      "redevelopmentCost": 3500000000,
+      "floodProbability": 89,
+      "waterLevel": "Rising",
+      "predictedPeakTime": "18-24 hours",
+      "coordinates": [
+        [23.8103, 90.4125],
+        [23.8800, 90.5000],
+        [23.7800, 90.5500],
+        [23.7500, 90.4500]
+      ]
+    },
+    {
+      "id": "bd-chittagong",
+      "name": "Chittagong Coastal Flood Zone",
+      "severity": "high",
+      "riskScore": 87,
+      "populationAtRisk": 3800000,
+      "areaAffected": 420,
+      "predictedAccuracy": 91,
+      "estimatedDamage": 950000000,
+      "redevelopmentCost": 1800000000,
+      "floodProbability": 82,
+      "waterLevel": "High",
+      "predictedPeakTime": "24-36 hours",
+      "coordinates": [
+        [22.3569, 91.7832],
+        [22.4000, 91.8500],
+        [22.3200, 91.8800],
+        [22.3000, 91.8000]
+      ]
+    },
+    {
+      "id": "bd-sylhet",
+      "name": "Sylhet Flash Flood Zone",
+      "severity": "high",
+      "riskScore": 89,
+      "populationAtRisk": 2100000,
+      "areaAffected": 520,
+      "predictedAccuracy": 89,
+      "estimatedDamage": 720000000,
+      "redevelopmentCost": 1400000000,
+      "floodProbability": 85,
+      "waterLevel": "Very High",
+      "predictedPeakTime": "12-18 hours",
+      "coordinates": [
+        [24.8949, 91.8687],
+        [24.9500, 91.9500],
+        [24.8500, 91.9800],
+        [24.8000, 91.9000]
+      ]
+    },
+    {
+      "id": "bd-khulna-sundarbans",
+      "name": "Khulna Sundarbans Delta",
+      "severity": "medium",
+      "riskScore": 76,
+      "populationAtRisk": 1900000,
+      "areaAffected": 650,
+      "predictedAccuracy": 87,
+      "estimatedDamage": 480000000,
+      "redevelopmentCost": 950000000,
+      "floodProbability": 72,
+      "waterLevel": "Moderate",
+      "predictedPeakTime": "36-48 hours",
+      "coordinates": [
+        [22.8456, 89.5403],
+        [22.9000, 89.6500],
+        [22.8000, 89.7000],
+        [22.7500, 89.6000]
+      ]
+    },
+    {
+      "id": "bd-feni",
+      "name": "Feni District Critical Zone",
+      "severity": "critical",
+      "riskScore": 94,
+      "populationAtRisk": 1500000,
+      "areaAffected": 285,
+      "predictedAccuracy": 94,
+      "estimatedDamage": 620000000,
+      "redevelopmentCost": 1200000000,
+      "floodProbability": 91,
+      "waterLevel": "Critical",
+      "predictedPeakTime": "6-12 hours",
+      "coordinates": [
+        [23.0239, 91.3967],
+        [23.0500, 91.4500],
+        [23.0000, 91.4800],
+        [22.9500, 91.4200]
+      ]
+    },
+    {
+      "id": "bd-barisal",
+      "name": "Barisal Riverine Flood Zone",
+      "severity": "high",
+      "riskScore": 84,
+      "populationAtRisk": 1800000,
+      "areaAffected": 390,
+      "predictedAccuracy": 88,
+      "estimatedDamage": 550000000,
+      "redevelopmentCost": 1100000000,
+      "floodProbability": 80,
+      "waterLevel": "High",
+      "predictedPeakTime": "24-30 hours",
+      "coordinates": [
+        [22.7010, 90.3535],
+        [22.7500, 90.4500],
+        [22.6500, 90.5000],
+        [22.6000, 90.4000]
+      ]
+    }
+  ],
+  "divisions": [
+    {
+      "name": "Dhaka",
+      "population": 44900000,
+      "riskLevel": 85,
+      "coordinates": [23.8103, 90.4125],
+      "area": 20593,
+      "urbanization": 78,
+      "districts": [
+        {
+          "name": "Dhaka",
+          "population": 12000000,
+          "riskLevel": "critical",
+          "coordinates": [23.8103, 90.4125],
+          "floodFrequency": "Annual",
+          "avgWaterLevel": 4.2,
+          "estimatedDamage": 1500000000,
+          "redevelopmentCost": 2200000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 450,
+              "historical": [320, 385, 420, 445, 450],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.2,
+              "historical": [29.8, 30.1, 30.5, 30.9, 31.2],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.5
+            },
+            "soilMoisture": {
+              "current": 87.3,
+              "historical": [72.5, 78.2, 82.1, 85.6, 87.3],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 82,
+          "boundaries": [[23.95, 90.25], [23.95, 90.58], [23.65, 90.58], [23.65, 90.25], [23.95, 90.25]]
+        },
+        {
+          "name": "Gazipur",
+          "population": 3400000,
+          "riskLevel": "high",
+          "coordinates": [24.0022, 90.4264],
+          "floodFrequency": "Bi-Annual",
+          "avgWaterLevel": 3.1,
+          "estimatedDamage": 420000000,
+          "redevelopmentCost": 680000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 380,
+              "historical": [298, 325, 352, 368, 380],
+              "trend": "increasing",
+              "anomaly": "+21.5%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.8,
+              "historical": [29.2, 29.6, 30.0, 30.4, 30.8],
+              "trend": "increasing",
+              "anomaly": "+1.6°C",
+              "heatIndex": 37.2
+            },
+            "soilMoisture": {
+              "current": 79.5,
+              "historical": [68.3, 71.8, 75.2, 77.8, 79.5],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          },
+          "cloudCover": 75,
+          "boundaries": [[24.15, 90.28], [24.15, 90.58], [23.88, 90.58], [23.88, 90.28], [24.15, 90.28]]
+        },
+        {
+          "name": "Narayanganj",
+          "population": 2900000,
+          "riskLevel": "critical",
+          "coordinates": [23.6238, 90.5000],
+          "floodFrequency": "Annual",
+          "avgWaterLevel": 3.8,
+          "estimatedDamage": 680000000,
+          "redevelopmentCost": 950000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 425,
+              "historical": [310, 355, 395, 415, 425],
+              "trend": "increasing",
+              "anomaly": "+27.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.5,
+              "historical": [29.9, 30.3, 30.8, 31.2, 31.5],
+              "trend": "increasing",
+              "anomaly": "+1.6°C",
+              "heatIndex": 39.1
+            },
+            "soilMoisture": {
+              "current": 84.7,
+              "historical": [70.2, 75.8, 79.5, 82.3, 84.7],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 80,
+          "boundaries": [[23.72, 90.42], [23.72, 90.62], [23.52, 90.62], [23.52, 90.42], [23.72, 90.42]]
+        },
+        {
+          "name": "Tangail",
+          "population": 3600000,
+          "riskLevel": "high",
+          "coordinates": [24.2513, 89.9167],
+          "floodFrequency": "Seasonal",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 520000000,
+          "redevelopmentCost": 780000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 360,
+              "historical": [285, 310, 335, 350, 360],
+              "trend": "increasing",
+              "anomaly": "+20.8%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.3,
+              "historical": [28.9, 29.2, 29.7, 30.0, 30.3],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.8
+            },
+            "soilMoisture": {
+              "current": 76.2,
+              "historical": [64.5, 68.9, 72.3, 74.5, 76.2],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          },
+          "cloudCover": 72,
+          "boundaries": [[24.48, 89.72], [24.48, 90.12], [24.05, 90.12], [24.05, 89.72], [24.48, 89.72]]
+        },
+        {
+          "name": "Kishoreganj",
+          "population": 2900000,
+          "riskLevel": "critical",
+          "coordinates": [24.4260, 90.7765],
+          "floodFrequency": "Annual",
+          "avgWaterLevel": 3.9,
+          "estimatedDamage": 590000000,
+          "redevelopmentCost": 850000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 410,
+              "historical": [305, 340, 375, 398, 410],
+              "trend": "increasing",
+              "anomaly": "+25.6%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.7,
+              "historical": [29.1, 29.5, 30.0, 30.4, 30.7],
+              "trend": "increasing",
+              "anomaly": "+1.6°C",
+              "heatIndex": 37.9
+            },
+            "soilMoisture": {
+              "current": 82.8,
+              "historical": [69.5, 74.2, 77.8, 80.5, 82.8],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 78,
+          "boundaries": [[24.68, 90.58], [24.68, 91.02], [24.18, 91.02], [24.18, 90.58], [24.68, 90.58]]
+        }
+      ]
+    },
+    {
+      "name": "Chittagong",
+      "population": 28400000,
+      "riskLevel": 92,
+      "coordinates": [22.3569, 91.7832],
+      "area": 33771,
+      "urbanization": 45,
+      "districts": [
+        {
+          "name": "Chittagong City",
+          "population": 8200000,
+          "riskLevel": "critical",
+          "coordinates": [22.3569, 91.7832],
+          "floodFrequency": "Annual + Cyclone",
+          "avgWaterLevel": 4.8,
+          "estimatedDamage": 1800000000,
+          "redevelopmentCost": 2600000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 520,
+              "historical": [385, 425, 470, 502, 520],
+              "trend": "increasing",
+              "anomaly": "+35.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.8,
+              "historical": [28.1, 28.6, 29.2, 29.5, 29.8],
+              "trend": "increasing",
+              "anomaly": "+1.7°C",
+              "heatIndex": 36.4
+            },
+            "soilMoisture": {
+              "current": 91.2,
+              "historical": [76.8, 82.1, 86.5, 89.3, 91.2],
+              "trend": "increasing",
+              "saturationLevel": "extreme",
+              "infiltrationRate": "very poor"
+            }
+          },
+          "cloudCover": 88,
+          "boundaries": [[22.48, 91.68], [22.48, 91.92], [22.22, 91.92], [22.22, 91.68], [22.48, 91.68]]
+        },
+        {
+          "name": "Cox's Bazar",
+          "population": 2290000,
+          "riskLevel": "high",
+          "coordinates": [21.4272, 92.0058],
+          "floodFrequency": "Cyclone",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 560000000,
+          "redevelopmentCost": 890000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 485,
+              "historical": [362, 398, 435, 468, 485],
+              "trend": "increasing",
+              "anomaly": "+34.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.9,
+              "historical": [27.3, 27.8, 28.3, 28.6, 28.9],
+              "trend": "increasing",
+              "anomaly": "+1.6°C",
+              "heatIndex": 35.8
+            },
+            "soilMoisture": {
+              "current": 83.5,
+              "historical": [69.2, 74.8, 78.6, 81.4, 83.5],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 84,
+          "boundaries": [[21.58, 91.88], [21.58, 92.12], [21.28, 92.12], [21.28, 91.88], [21.58, 91.88]]
+        },
+        {
+          "name": "Comilla",
+          "population": 5400000,
+          "riskLevel": "high",
+          "coordinates": [23.4607, 91.1809],
+          "floodFrequency": "Seasonal",
+          "avgWaterLevel": 3.2,
+          "estimatedDamage": 780000000,
+          "redevelopmentCost": 1150000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 395,
+              "historical": [310, 342, 368, 382, 395],
+              "trend": "increasing",
+              "anomaly": "+27.4%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.6,
+              "historical": [29.1, 29.5, 30.0, 30.3, 30.6],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 37.4
+            },
+            "soilMoisture": {
+              "current": 78.9,
+              "historical": [66.3, 70.5, 74.2, 76.8, 78.9],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          },
+          "cloudCover": 76,
+          "boundaries": [[23.62, 91.05], [23.62, 91.35], [23.28, 91.35], [23.28, 91.05], [23.62, 91.05]]
+        }
+      ]
+    },
+    {
+      "name": "Sylhet",
+      "population": 9900000,
+      "riskLevel": 95,
+      "coordinates": [24.8949, 91.8687],
+      "area": 12635,
+      "urbanization": 38,
+      "districts": [
+        {
+          "name": "Sylhet City",
+          "population": 3400000,
+          "riskLevel": "critical",
+          "coordinates": [24.8949, 91.8687],
+          "floodFrequency": "Annual + Flash",
+          "avgWaterLevel": 5.1,
+          "estimatedDamage": 980000000,
+          "redevelopmentCost": 1450000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 610,
+              "historical": [445, 495, 548, 585, 610],
+              "trend": "increasing",
+              "anomaly": "+37.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.5,
+              "historical": [28.0, 28.4, 28.9, 29.2, 29.5],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 36.2
+            },
+            "soilMoisture": {
+              "current": 88.6,
+              "historical": [73.5, 78.9, 83.2, 86.3, 88.6],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 90,
+          "boundaries": [[25.02, 91.75], [25.02, 92.02], [24.75, 92.02], [24.75, 91.75], [25.02, 91.75]]
+        },
+        {
+          "name": "Sunamganj",
+          "population": 2400000,
+          "riskLevel": "critical",
+          "coordinates": [25.0657, 91.3950],
+          "floodFrequency": "Annual + Flash",
+          "avgWaterLevel": 5.3,
+          "estimatedDamage": 650000000,
+          "redevelopmentCost": 980000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 640,
+              "historical": [468, 518, 575, 615, 640],
+              "trend": "increasing",
+              "anomaly": "+36.8%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.2,
+              "historical": [27.8, 28.2, 28.6, 29.0, 29.2],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.8
+            },
+            "soilMoisture": {
+              "current": 90.4,
+              "historical": [75.2, 80.6, 85.1, 88.2, 90.4],
+              "trend": "increasing",
+              "saturationLevel": "extreme",
+              "infiltrationRate": "very poor"
+            }
+          },
+          "cloudCover": 92,
+          "boundaries": [[25.28, 91.25], [25.28, 91.58], [24.88, 91.58], [24.88, 91.25], [25.28, 91.25]]
+        }
+      ]
+    },
+    {
+      "name": "Khulna",
+      "population": 15600000,
+      "riskLevel": 89,
+      "coordinates": [22.8456, 89.5403],
+      "area": 22285,
+      "urbanization": 42,
+      "districts": [
+        {
+          "name": "Khulna City",
+          "population": 1400000,
+          "riskLevel": "critical",
+          "coordinates": [22.8456, 89.5403],
+          "floodFrequency": "Annual",
+          "avgWaterLevel": 4.1,
+          "estimatedDamage": 850000000,
+          "redevelopmentCost": 1280000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 465,
+              "historical": [358, 392, 428, 450, 465],
+              "trend": "increasing",
+              "anomaly": "+29.9%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.1,
+              "historical": [28.6, 29.0, 29.5, 29.8, 30.1],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 36.9
+            },
+            "soilMoisture": {
+              "current": 81.4,
+              "historical": [68.5, 73.2, 76.8, 79.3, 81.4],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 84,
+          "boundaries": [[22.98, 89.42], [22.98, 89.68], [22.72, 89.68], [22.72, 89.42], [22.98, 89.42]]
+        },
+        {
+          "name": "Satkhira",
+          "population": 2000000,
+          "riskLevel": "critical",
+          "coordinates": [22.7185, 89.0705],
+          "floodFrequency": "Cyclone + Coastal",
+          "avgWaterLevel": 4.5,
+          "estimatedDamage": 620000000,
+          "redevelopmentCost": 950000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 490,
+              "historical": [372, 408, 445, 472, 490],
+              "trend": "increasing",
+              "anomaly": "+31.7%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.7,
+              "historical": [28.2, 28.6, 29.1, 29.4, 29.7],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 36.3
+            },
+            "soilMoisture": {
+              "current": 85.2,
+              "historical": [71.8, 76.5, 80.3, 83.1, 85.2],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 86,
+          "boundaries": [[22.88, 88.95], [22.88, 89.22], [22.55, 89.22], [22.55, 88.95], [22.88, 88.95]]
+        }
+      ]
+    },
+    {
+      "name": "Rajshahi",
+      "population": 18500000,
+      "riskLevel": 72,
+      "coordinates": [24.3745, 88.6042],
+      "area": 18197,
+      "urbanization": 35,
+      "districts": [
+        {
+          "name": "Rajshahi City",
+          "population": 800000,
+          "riskLevel": "medium",
+          "coordinates": [24.3745, 88.6042],
+          "floodFrequency": "Occasional",
+          "avgWaterLevel": 2.8,
+          "estimatedDamage": 320000000,
+          "redevelopmentCost": 480000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 285,
+              "historical": [242, 258, 268, 278, 285],
+              "trend": "increasing",
+              "anomaly": "+17.8%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.8,
+              "historical": [30.2, 30.6, 31.0, 31.4, 31.8],
+              "trend": "increasing",
+              "anomaly": "+1.6°C",
+              "heatIndex": 39.5
+            },
+            "soilMoisture": {
+              "current": 62.4,
+              "historical": [54.8, 57.2, 59.5, 61.0, 62.4],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          },
+          "cloudCover": 62,
+          "boundaries": [[24.52, 88.48], [24.52, 88.75], [24.22, 88.75], [24.22, 88.48], [24.52, 88.48]]
+        }
+      ]
+    },
+    {
+      "name": "Barisal",
+      "population": 8300000,
+      "riskLevel": 90,
+      "coordinates": [22.7010, 90.3535],
+      "area": 13225,
+      "urbanization": 40,
+      "districts": [
+        {
+          "name": "Barisal City",
+          "population": 380000,
+          "riskLevel": "critical",
+          "coordinates": [22.7010, 90.3535],
+          "floodFrequency": "Annual",
+          "avgWaterLevel": 4.3,
+          "estimatedDamage": 480000000,
+          "redevelopmentCost": 720000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 510,
+              "historical": [385, 422, 465, 492, 510],
+              "trend": "increasing",
+              "anomaly": "+32.5%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.9,
+              "historical": [28.4, 28.8, 29.3, 29.6, 29.9],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 36.6
+            },
+            "soilMoisture": {
+              "current": 86.3,
+              "historical": [72.4, 77.1, 81.2, 84.0, 86.3],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          },
+          "cloudCover": 86,
+          "boundaries": [[22.82, 90.25], [22.82, 90.48], [22.58, 90.48], [22.58, 90.25], [22.82, 90.25]]
+        }
+      ]
+    },
+    {
+      "name": "Rangpur",
+      "population": 15800000,
+      "riskLevel": 74,
+      "coordinates": [25.7439, 89.2752],
+      "area": 16317,
+      "urbanization": 33,
+      "districts": [
+        {
+          "name": "Rangpur City",
+          "population": 750000,
+          "riskLevel": "medium",
+          "coordinates": [25.7439, 89.2752],
+          "floodFrequency": "Seasonal",
+          "avgWaterLevel": 3.1,
+          "estimatedDamage": 350000000,
+          "redevelopmentCost": 520000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 315,
+              "historical": [268, 282, 295, 306, 315],
+              "trend": "increasing",
+              "anomaly": "+17.5%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.4,
+              "historical": [27.9, 28.3, 28.8, 29.1, 29.4],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 35.2
+            },
+            "soilMoisture": {
+              "current": 68.7,
+              "historical": [59.5, 62.8, 65.4, 67.2, 68.7],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "moderate"
+            }
+          },
+          "cloudCover": 68,
+          "boundaries": [[25.88, 89.15], [25.88, 89.42], [25.62, 89.42], [25.62, 89.15], [25.88, 89.15]]
+        }
+      ]
+    },
+    {
+      "name": "Mymensingh",
+      "population": 11400000,
+      "riskLevel": 82,
+      "coordinates": [24.7471, 90.4203],
+      "area": 10584,
+      "urbanization": 36,
+      "districts": [
+        {
+          "name": "Mymensingh City",
+          "population": 560000,
+          "riskLevel": "high",
+          "coordinates": [24.7471, 90.4203],
+          "floodFrequency": "Seasonal",
+          "avgWaterLevel": 3.6,
+          "estimatedDamage": 420000000,
+          "redevelopmentCost": 640000000,
+          "nasaData": {
+            "rainfall": {
+              "current": 385,
+              "historical": [305, 332, 358, 372, 385],
+              "trend": "increasing",
+              "anomaly": "+26.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.5,
+              "historical": [29.0, 29.4, 29.9, 30.2, 30.5],
+              "trend": "increasing",
+              "anomaly": "+1.5°C",
+              "heatIndex": 37.2
+            },
+            "soilMoisture": {
+              "current": 75.8,
+              "historical": [64.2, 68.5, 71.8, 74.0, 75.8],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "moderate"
+            }
+          },
+          "cloudCover": 74,
+          "boundaries": [[24.88, 90.28], [24.88, 90.58], [24.62, 90.58], [24.62, 90.28], [24.88, 90.28]]
+        }
+      ]
+    }
+  ]
+}

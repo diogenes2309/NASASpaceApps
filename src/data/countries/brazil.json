@@ -1,0 +1,888 @@
+{
+  "country": {
+    "name": "Brazil",
+    "code": "BR",
+    "center": [
+      -14.235,
+      -51.9253
+    ],
+    "zoom": 4,
+    "bounds": {
+      "north": 5.3,
+      "south": -33.8,
+      "east": -34.8,
+      "west": -73.9
+    }
+  },
+  "statistics": {
+    "avgRisk": 68,
+    "population": 214300000,
+    "area": 8515767,
+    "coastline": 7491,
+    "floodProneArea": 187000,
+    "annualRainfall": 1761
+  },
+  "geography": {
+    "riverSystems": [
+      "Amazon River",
+      "Paraná River",
+      "São Francisco River",
+      "Tocantins River",
+      "Paraguay River"
+    ],
+    "terrain": "Mostly flat to rolling lowlands in north; some plains, hills, mountains, and narrow coastal belt",
+    "climate": "Mostly tropical, but temperate in south",
+    "elevation": {
+      "highest": 2994,
+      "lowest": 0,
+      "average": 320
+    }
+  },
+  "divisions": [
+    {
+      "name": "Amazonas State",
+      "population": 4207000,
+      "riskLevel": 75,
+      "coordinates": [
+        -3.4168,
+        -65.8561
+      ],
+      "area": 1559146,
+      "urbanization": 79,
+      "districts": [
+        {
+          "name": "Manaus Municipality",
+          "population": 2219000,
+          "riskLevel": "high",
+          "coordinates": [
+            -3.119,
+            -60.0217
+          ],
+          "floodFrequency": "Annual Amazon flooding, extreme wet season",
+          "avgWaterLevel": 2.8,
+          "estimatedDamage": 620000000,
+          "redevelopmentCost": 1500000000,
+          "rainfall": 2300,
+          "cloudCover": 76,
+          "boundaries": [
+            [
+              -3.3,
+              -60.2
+            ],
+            [
+              -3.3,
+              -59.8
+            ],
+            [
+              -2.9,
+              -59.8
+            ],
+            [
+              -2.9,
+              -60.2
+            ],
+            [
+              -3.3,
+              -60.2
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 593,
+              "historical": [
+                393,
+                430,
+                467,
+                504,
+                593
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.4,
+              "historical": [
+                26.8,
+                27.2,
+                27.6,
+                28,
+                28.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.8
+            },
+            "soilMoisture": {
+              "current": 86.6,
+              "historical": [
+                66.9,
+                70.6,
+                74.2,
+                77.8,
+                86.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Itacoatiara Municipality",
+          "population": 102000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -3.1428,
+            -58.4439
+          ],
+          "floodFrequency": "Severe annual Amazon River flooding",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 180000000,
+          "redevelopmentCost": 420000000,
+          "rainfall": 2500,
+          "cloudCover": 78,
+          "boundaries": [
+            [
+              -3.35,
+              -58.7
+            ],
+            [
+              -3.35,
+              -58.2
+            ],
+            [
+              -2.95,
+              -58.2
+            ],
+            [
+              -2.95,
+              -58.7
+            ],
+            [
+              -3.35,
+              -58.7
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 526,
+              "historical": [
+                348,
+                381,
+                414,
+                446,
+                526
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.3,
+              "historical": [
+                26.7,
+                27.1,
+                27.5,
+                27.9,
+                28.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.7
+            },
+            "soilMoisture": {
+              "current": 89.8,
+              "historical": [
+                69.4,
+                73.2,
+                76.9,
+                80.7,
+                89.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro State",
+      "population": 17463000,
+      "riskLevel": 72,
+      "coordinates": [
+        -22.9068,
+        -43.1729
+      ],
+      "area": 43696,
+      "urbanization": 97,
+      "districts": [
+        {
+          "name": "Rio de Janeiro City",
+          "population": 6748000,
+          "riskLevel": "high",
+          "coordinates": [
+            -22.9068,
+            -43.1729
+          ],
+          "floodFrequency": "Flash floods and landslides during heavy rain",
+          "avgWaterLevel": 1.9,
+          "estimatedDamage": 1400000000,
+          "redevelopmentCost": 3500000000,
+          "rainfall": 1173,
+          "cloudCover": 62,
+          "boundaries": [
+            [
+              -23.08,
+              -43.8
+            ],
+            [
+              -23.08,
+              -43.1
+            ],
+            [
+              -22.75,
+              -43.1
+            ],
+            [
+              -22.75,
+              -43.8
+            ],
+            [
+              -23.08,
+              -43.8
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 501,
+              "historical": [
+                332,
+                363,
+                394,
+                426,
+                501
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.5,
+              "historical": [
+                27.9,
+                28.3,
+                28.7,
+                29.1,
+                29.5
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.9
+            },
+            "soilMoisture": {
+              "current": 85.9,
+              "historical": [
+                66.4,
+                70,
+                73.6,
+                77.2,
+                85.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Duque de Caxias Municipality",
+          "population": 919000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -22.7858,
+            -43.3058
+          ],
+          "floodFrequency": "Frequent urban flooding, poor drainage",
+          "avgWaterLevel": 2.4,
+          "estimatedDamage": 520000000,
+          "redevelopmentCost": 1200000000,
+          "rainfall": 1200,
+          "cloudCover": 63,
+          "boundaries": [
+            [
+              -22.9,
+              -43.5
+            ],
+            [
+              -22.9,
+              -43.15
+            ],
+            [
+              -22.65,
+              -43.15
+            ],
+            [
+              -22.65,
+              -43.5
+            ],
+            [
+              -22.9,
+              -43.5
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 592,
+              "historical": [
+                392,
+                429,
+                466,
+                503,
+                592
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.1,
+              "historical": [
+                27.5,
+                27.9,
+                28.3,
+                28.7,
+                29.1
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.5
+            },
+            "soilMoisture": {
+              "current": 88.2,
+              "historical": [
+                68.2,
+                71.9,
+                75.6,
+                79.3,
+                88.2
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "São Paulo State",
+      "population": 46289000,
+      "riskLevel": 64,
+      "coordinates": [
+        -23.5505,
+        -46.6333
+      ],
+      "area": 248219,
+      "urbanization": 96,
+      "districts": [
+        {
+          "name": "São Paulo City",
+          "population": 12326000,
+          "riskLevel": "high",
+          "coordinates": [
+            -23.5505,
+            -46.6333
+          ],
+          "floodFrequency": "Urban flooding during summer rains",
+          "avgWaterLevel": 1.7,
+          "estimatedDamage": 1800000000,
+          "redevelopmentCost": 4500000000,
+          "rainfall": 1454,
+          "cloudCover": 58,
+          "boundaries": [
+            [
+              -23.75,
+              -46.85
+            ],
+            [
+              -23.75,
+              -46.4
+            ],
+            [
+              -23.35,
+              -46.4
+            ],
+            [
+              -23.35,
+              -46.85
+            ],
+            [
+              -23.75,
+              -46.85
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 588,
+              "historical": [
+                390,
+                426,
+                463,
+                500,
+                588
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.4,
+              "historical": [
+                26.8,
+                27.2,
+                27.6,
+                28,
+                28.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.8
+            },
+            "soilMoisture": {
+              "current": 88.5,
+              "historical": [
+                68.4,
+                72.1,
+                75.8,
+                79.5,
+                88.5
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        },
+        {
+          "name": "São Vicente Municipality",
+          "population": 365000,
+          "riskLevel": "high",
+          "coordinates": [
+            -23.9633,
+            -46.3919
+          ],
+          "floodFrequency": "Coastal flooding and storm surge",
+          "avgWaterLevel": 2.1,
+          "estimatedDamage": 280000000,
+          "redevelopmentCost": 650000000,
+          "rainfall": 2400,
+          "cloudCover": 68,
+          "boundaries": [
+            [
+              -24.05,
+              -46.5
+            ],
+            [
+              -24.05,
+              -46.3
+            ],
+            [
+              -23.9,
+              -46.3
+            ],
+            [
+              -23.9,
+              -46.5
+            ],
+            [
+              -24.05,
+              -46.5
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 597,
+              "historical": [
+                396,
+                433,
+                470,
+                507,
+                597
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.6,
+              "historical": [
+                27,
+                27.4,
+                27.8,
+                28.2,
+                28.6
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36
+            },
+            "soilMoisture": {
+              "current": 89,
+              "historical": [
+                68.8,
+                72.5,
+                76.3,
+                80,
+                89
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pará State",
+      "population": 8690000,
+      "riskLevel": 78,
+      "coordinates": [
+        -3.7183,
+        -52.325
+      ],
+      "area": 1247689,
+      "urbanization": 68,
+      "districts": [
+        {
+          "name": "Belém Municipality",
+          "population": 1499000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -1.4558,
+            -48.5039
+          ],
+          "floodFrequency": "Severe flooding at Amazon delta",
+          "avgWaterLevel": 3.2,
+          "estimatedDamage": 680000000,
+          "redevelopmentCost": 1600000000,
+          "rainfall": 3000,
+          "cloudCover": 80,
+          "boundaries": [
+            [
+              -1.6,
+              -48.65
+            ],
+            [
+              -1.6,
+              -48.35
+            ],
+            [
+              -1.3,
+              -48.35
+            ],
+            [
+              -1.3,
+              -48.65
+            ],
+            [
+              -1.6,
+              -48.65
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 592,
+              "historical": [
+                392,
+                429,
+                466,
+                503,
+                592
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.6,
+              "historical": [
+                28,
+                28.4,
+                28.8,
+                29.2,
+                29.6
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37
+            },
+            "soilMoisture": {
+              "current": 88.4,
+              "historical": [
+                68.3,
+                72,
+                75.7,
+                79.5,
+                88.4
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        },
+        {
+          "name": "Abaetetuba Municipality",
+          "population": 157000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -1.7219,
+            -48.8786
+          ],
+          "floodFrequency": "Perpetual flooding risk in river islands",
+          "avgWaterLevel": 3.8,
+          "estimatedDamage": 220000000,
+          "redevelopmentCost": 520000000,
+          "rainfall": 3200,
+          "cloudCover": 82,
+          "boundaries": [
+            [
+              -1.9,
+              -49.1
+            ],
+            [
+              -1.9,
+              -48.7
+            ],
+            [
+              -1.55,
+              -48.7
+            ],
+            [
+              -1.55,
+              -49.1
+            ],
+            [
+              -1.9,
+              -49.1
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 527,
+              "historical": [
+                349,
+                382,
+                415,
+                447,
+                527
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.2,
+              "historical": [
+                26.6,
+                27,
+                27.4,
+                27.8,
+                28.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.6
+            },
+            "soilMoisture": {
+              "current": 87.5,
+              "historical": [
+                67.6,
+                71.3,
+                75,
+                78.6,
+                87.5
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Acre State",
+      "population": 894000,
+      "riskLevel": 82,
+      "coordinates": [
+        -9.0238,
+        -70.812
+      ],
+      "area": 164123,
+      "urbanization": 73,
+      "districts": [
+        {
+          "name": "Rio Branco Municipality",
+          "population": 413000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -9.9747,
+            -67.81
+          ],
+          "floodFrequency": "Extreme annual flooding from Acre River",
+          "avgWaterLevel": 4.1,
+          "estimatedDamage": 380000000,
+          "redevelopmentCost": 900000000,
+          "rainfall": 2000,
+          "cloudCover": 74,
+          "boundaries": [
+            [
+              -10.2,
+              -68
+            ],
+            [
+              -10.2,
+              -67.6
+            ],
+            [
+              -9.75,
+              -67.6
+            ],
+            [
+              -9.75,
+              -68
+            ],
+            [
+              -10.2,
+              -68
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 550,
+              "historical": [
+                364,
+                398,
+                433,
+                467,
+                550
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 29.4,
+              "historical": [
+                27.8,
+                28.2,
+                28.6,
+                29,
+                29.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.8
+            },
+            "soilMoisture": {
+              "current": 86.5,
+              "historical": [
+                66.8,
+                70.5,
+                74.1,
+                77.7,
+                86.5
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Cruzeiro do Sul Municipality",
+          "population": 88000,
+          "riskLevel": "critical",
+          "coordinates": [
+            -7.6292,
+            -72.6753
+          ],
+          "floodFrequency": "Severe flooding from Juruá River",
+          "avgWaterLevel": 3.9,
+          "estimatedDamage": 180000000,
+          "redevelopmentCost": 420000000,
+          "rainfall": 2100,
+          "cloudCover": 76,
+          "boundaries": [
+            [
+              -7.8,
+              -72.9
+            ],
+            [
+              -7.8,
+              -72.45
+            ],
+            [
+              -7.45,
+              -72.45
+            ],
+            [
+              -7.45,
+              -72.9
+            ],
+            [
+              -7.8,
+              -72.9
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 564,
+              "historical": [
+                374,
+                409,
+                444,
+                479,
+                564
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30,
+              "historical": [
+                28.4,
+                28.8,
+                29.2,
+                29.6,
+                30
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.4
+            },
+            "soilMoisture": {
+              "current": 88.6,
+              "historical": [
+                68.5,
+                72.2,
+                75.9,
+                79.6,
+                88.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "very poor"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

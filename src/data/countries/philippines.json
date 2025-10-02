@@ -1,0 +1,640 @@
+{
+  "country": {
+    "name": "Philippines",
+    "code": "PH",
+    "center": [
+      12.8797,
+      121.774
+    ],
+    "zoom": 6,
+    "bounds": {
+      "north": 21.1207,
+      "south": 4.6144,
+      "east": 126.6043,
+      "west": 116.9283
+    }
+  },
+  "statistics": {
+    "avgRisk": 90,
+    "population": 115600000,
+    "area": 300000,
+    "coastline": 36289,
+    "floodProneArea": 125000,
+    "annualRainfall": 2400
+  },
+  "geography": {
+    "riverSystems": [
+      "Cagayan",
+      "Agusan",
+      "Pampanga",
+      "Pasig"
+    ],
+    "terrain": "Mountainous islands",
+    "climate": "Tropical marine monsoon",
+    "elevation": {
+      "highest": 2954,
+      "lowest": 0,
+      "average": 442
+    }
+  },
+  "divisions": [
+    {
+      "name": "Metro Manila",
+      "population": 13900000,
+      "riskLevel": 90,
+      "coordinates": [
+        14.5995,
+        120.9842
+      ],
+      "area": 619,
+      "urbanization": 100,
+      "districts": [
+        {
+          "name": "Manila City",
+          "population": 1780000,
+          "riskLevel": "critical",
+          "coordinates": [
+            14.5995,
+            120.9842
+          ],
+          "floodFrequency": "Monsoon + Typhoon",
+          "avgWaterLevel": 4.1,
+          "estimatedDamage": 2800000000,
+          "redevelopmentCost": 4100000000,
+          "rainfall": 520,
+          "cloudCover": 85,
+          "boundaries": [
+            [
+              14.72,
+              120.88
+            ],
+            [
+              14.72,
+              121.12
+            ],
+            [
+              14.48,
+              121.12
+            ],
+            [
+              14.48,
+              120.88
+            ],
+            [
+              14.72,
+              120.88
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 437,
+              "historical": [
+                289,
+                317,
+                344,
+                371,
+                437
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 32.2,
+              "historical": [
+                30.6,
+                31,
+                31.4,
+                31.8,
+                32.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39.1
+            },
+            "soilMoisture": {
+              "current": 83.6,
+              "historical": [
+                64.6,
+                68.1,
+                71.6,
+                75.1,
+                83.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Quezon City",
+          "population": 2960000,
+          "riskLevel": "high",
+          "coordinates": [
+            14.676,
+            121.0437
+          ],
+          "floodFrequency": "Monsoon + Typhoon",
+          "avgWaterLevel": 3.6,
+          "estimatedDamage": 1950000000,
+          "redevelopmentCost": 2950000000,
+          "rainfall": 495,
+          "cloudCover": 82,
+          "boundaries": [
+            [
+              14.82,
+              121
+            ],
+            [
+              14.82,
+              121.18
+            ],
+            [
+              14.55,
+              121.18
+            ],
+            [
+              14.55,
+              121
+            ],
+            [
+              14.82,
+              121
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 400,
+              "historical": [
+                265,
+                290,
+                315,
+                340,
+                400
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.2%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.3,
+              "historical": [
+                28.7,
+                29.1,
+                29.5,
+                29.9,
+                30.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.2
+            },
+            "soilMoisture": {
+              "current": 85.3,
+              "historical": [
+                65.9,
+                69.5,
+                73.1,
+                76.7,
+                85.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Makati",
+          "population": 580000,
+          "riskLevel": "high",
+          "coordinates": [
+            14.5547,
+            121.0244
+          ],
+          "floodFrequency": "Monsoon",
+          "avgWaterLevel": 3.3,
+          "estimatedDamage": 3200000000,
+          "redevelopmentCost": 4800000000,
+          "rainfall": 505,
+          "cloudCover": 83,
+          "boundaries": [
+            [
+              14.62,
+              120.98
+            ],
+            [
+              14.62,
+              121.08
+            ],
+            [
+              14.49,
+              121.08
+            ],
+            [
+              14.49,
+              120.98
+            ],
+            [
+              14.62,
+              120.98
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 379,
+              "historical": [
+                251,
+                275,
+                298,
+                322,
+                379
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.3,
+              "historical": [
+                28.7,
+                29.1,
+                29.5,
+                29.9,
+                30.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.1
+            },
+            "soilMoisture": {
+              "current": 84.1,
+              "historical": [
+                65,
+                68.5,
+                72.1,
+                75.6,
+                84.1
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Central Luzon",
+      "population": 12400000,
+      "riskLevel": 87,
+      "coordinates": [
+        15.4817,
+        120.712
+      ],
+      "area": 22014,
+      "urbanization": 52,
+      "districts": [
+        {
+          "name": "Pampanga",
+          "population": 2610000,
+          "riskLevel": "critical",
+          "coordinates": [
+            15.0794,
+            120.62
+          ],
+          "floodFrequency": "Monsoon + Typhoon",
+          "avgWaterLevel": 4.3,
+          "estimatedDamage": 1680000000,
+          "redevelopmentCost": 2580000000,
+          "rainfall": 545,
+          "cloudCover": 86,
+          "boundaries": [
+            [
+              15.28,
+              120.48
+            ],
+            [
+              15.28,
+              120.82
+            ],
+            [
+              14.88,
+              120.82
+            ],
+            [
+              14.88,
+              120.48
+            ],
+            [
+              15.28,
+              120.48
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 374,
+              "historical": [
+                248,
+                271,
+                294,
+                318,
+                374
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.8,
+              "historical": [
+                30.2,
+                30.6,
+                31,
+                31.4,
+                31.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.6
+            },
+            "soilMoisture": {
+              "current": 81.7,
+              "historical": [
+                63.1,
+                66.6,
+                70,
+                73.4,
+                81.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Bulacan",
+          "population": 3630000,
+          "riskLevel": "critical",
+          "coordinates": [
+            14.7942,
+            120.8794
+          ],
+          "floodFrequency": "Monsoon + Typhoon",
+          "avgWaterLevel": 4.5,
+          "estimatedDamage": 1920000000,
+          "redevelopmentCost": 2950000000,
+          "rainfall": 565,
+          "cloudCover": 88,
+          "boundaries": [
+            [
+              15.05,
+              120.72
+            ],
+            [
+              15.05,
+              121.08
+            ],
+            [
+              14.55,
+              121.08
+            ],
+            [
+              14.55,
+              120.72
+            ],
+            [
+              15.05,
+              120.72
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 376,
+              "historical": [
+                249,
+                272,
+                295,
+                319,
+                376
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.7,
+              "historical": [
+                29.1,
+                29.5,
+                29.9,
+                30.3,
+                30.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.5
+            },
+            "soilMoisture": {
+              "current": 78.8,
+              "historical": [
+                60.9,
+                64.2,
+                67.5,
+                70.8,
+                78.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "high",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bicol",
+      "population": 6100000,
+      "riskLevel": 93,
+      "coordinates": [
+        13.421,
+        123.4134
+      ],
+      "area": 18155,
+      "urbanization": 46,
+      "districts": [
+        {
+          "name": "Albay",
+          "population": 1370000,
+          "riskLevel": "critical",
+          "coordinates": [
+            13.1391,
+            123.7265
+          ],
+          "floodFrequency": "Typhoon + Volcanic",
+          "avgWaterLevel": 4.6,
+          "estimatedDamage": 980000000,
+          "redevelopmentCost": 1520000000,
+          "rainfall": 625,
+          "cloudCover": 90,
+          "boundaries": [
+            [
+              13.35,
+              123.58
+            ],
+            [
+              13.35,
+              123.92
+            ],
+            [
+              12.92,
+              123.92
+            ],
+            [
+              12.92,
+              123.58
+            ],
+            [
+              13.35,
+              123.58
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 566,
+              "historical": [
+                375,
+                411,
+                446,
+                481,
+                566
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.4,
+              "historical": [
+                26.8,
+                27.2,
+                27.6,
+                28,
+                28.4
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.8
+            },
+            "soilMoisture": {
+              "current": 87.6,
+              "historical": [
+                67.7,
+                71.4,
+                75.1,
+                78.7,
+                87.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eastern Visayas",
+      "population": 4500000,
+      "riskLevel": 94,
+      "coordinates": [
+        11.2528,
+        125.0074
+      ],
+      "area": 23251,
+      "urbanization": 38,
+      "districts": [
+        {
+          "name": "Tacloban",
+          "population": 250000,
+          "riskLevel": "critical",
+          "coordinates": [
+            11.2447,
+            125.0037
+          ],
+          "floodFrequency": "Typhoon + Storm Surge",
+          "avgWaterLevel": 5.2,
+          "estimatedDamage": 1450000000,
+          "redevelopmentCost": 2280000000,
+          "rainfall": 680,
+          "cloudCover": 92,
+          "boundaries": [
+            [
+              11.38,
+              124.88
+            ],
+            [
+              11.38,
+              125.15
+            ],
+            [
+              11.12,
+              125.15
+            ],
+            [
+              11.12,
+              124.88
+            ],
+            [
+              11.38,
+              124.88
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 576,
+              "historical": [
+                382,
+                418,
+                454,
+                490,
+                576
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 28.7,
+              "historical": [
+                27.1,
+                27.5,
+                27.9,
+                28.3,
+                28.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 36.1
+            },
+            "soilMoisture": {
+              "current": 87.8,
+              "historical": [
+                67.9,
+                71.5,
+                75.2,
+                78.9,
+                87.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

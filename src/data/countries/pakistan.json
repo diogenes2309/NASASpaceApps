@@ -1,0 +1,875 @@
+{
+  "country": {
+    "name": "Pakistan",
+    "code": "PK",
+    "center": [
+      30.3753,
+      69.3451
+    ],
+    "zoom": 5,
+    "bounds": {
+      "north": 37,
+      "south": 23.5,
+      "east": 77.8,
+      "west": 60.9
+    }
+  },
+  "statistics": {
+    "avgRisk": 74,
+    "population": 225200000,
+    "area": 881913,
+    "coastline": 1046,
+    "floodProneArea": 145000,
+    "annualRainfall": 494
+  },
+  "geography": {
+    "riverSystems": [
+      "Indus River",
+      "Jhelum River",
+      "Chenab River",
+      "Ravi River",
+      "Sutlej River"
+    ],
+    "terrain": "Indus plain in east, mountains in north and west, Balochistan Plateau",
+    "climate": "Mostly hot, dry desert; temperate in northwest; arctic in north",
+    "elevation": {
+      "highest": 8611,
+      "lowest": 0,
+      "average": 900
+    }
+  },
+  "divisions": [
+    {
+      "name": "Sindh Province",
+      "population": 55245000,
+      "riskLevel": 82,
+      "coordinates": [
+        25.8943,
+        68.5247
+      ],
+      "area": 140914,
+      "urbanization": 52,
+      "districts": [
+        {
+          "name": "Karachi District",
+          "population": 16051000,
+          "riskLevel": "critical",
+          "coordinates": [
+            24.8607,
+            67.0011
+          ],
+          "floodFrequency": "Monsoon flooding, urban drainage crisis",
+          "avgWaterLevel": 2.4,
+          "estimatedDamage": 1200000000,
+          "redevelopmentCost": 3000000000,
+          "rainfall": 220,
+          "cloudCover": 45,
+          "boundaries": [
+            [
+              24.75,
+              66.9
+            ],
+            [
+              24.75,
+              67.2
+            ],
+            [
+              25.05,
+              67.2
+            ],
+            [
+              25.05,
+              66.9
+            ],
+            [
+              24.75,
+              66.9
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 411,
+              "historical": [
+                272,
+                298,
+                324,
+                349,
+                411
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 32.2,
+              "historical": [
+                30.6,
+                31,
+                31.4,
+                31.8,
+                32.2
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39.1
+            },
+            "soilMoisture": {
+              "current": 84.7,
+              "historical": [
+                65.5,
+                69,
+                72.6,
+                76.1,
+                84.7
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Hyderabad District",
+          "population": 2201000,
+          "riskLevel": "critical",
+          "coordinates": [
+            25.396,
+            68.3578
+          ],
+          "floodFrequency": "Severe monsoon flooding, Indus overflow",
+          "avgWaterLevel": 3.1,
+          "estimatedDamage": 680000000,
+          "redevelopmentCost": 1600000000,
+          "rainfall": 180,
+          "cloudCover": 42,
+          "boundaries": [
+            [
+              25.2,
+              68.2
+            ],
+            [
+              25.2,
+              68.55
+            ],
+            [
+              25.55,
+              68.55
+            ],
+            [
+              25.55,
+              68.2
+            ],
+            [
+              25.2,
+              68.2
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 260,
+              "historical": [
+                172,
+                188,
+                205,
+                221,
+                260
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.1%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.8,
+              "historical": [
+                30.2,
+                30.6,
+                31,
+                31.4,
+                31.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37
+            },
+            "soilMoisture": {
+              "current": 64.3,
+              "historical": [
+                49.7,
+                52.4,
+                55.1,
+                57.8,
+                64.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          }
+        },
+        {
+          "name": "Thatta District",
+          "population": 979000,
+          "riskLevel": "critical",
+          "coordinates": [
+            24.7471,
+            67.9244
+          ],
+          "floodFrequency": "Extreme flooding, delta region",
+          "avgWaterLevel": 3.5,
+          "estimatedDamage": 520000000,
+          "redevelopmentCost": 1200000000,
+          "rainfall": 160,
+          "cloudCover": 40,
+          "boundaries": [
+            [
+              24.5,
+              67.7
+            ],
+            [
+              24.5,
+              68.2
+            ],
+            [
+              25,
+              68.2
+            ],
+            [
+              25,
+              67.7
+            ],
+            [
+              24.5,
+              67.7
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 247,
+              "historical": [
+                163,
+                178,
+                193,
+                209,
+                247
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.6%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 33.9,
+              "historical": [
+                32.3,
+                32.7,
+                33.1,
+                33.5,
+                33.9
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39.1
+            },
+            "soilMoisture": {
+              "current": 58.1,
+              "historical": [
+                44.9,
+                47.3,
+                49.8,
+                52.2,
+                58.1
+              ],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Punjab Province",
+      "population": 110012000,
+      "riskLevel": 71,
+      "coordinates": [
+        31.1471,
+        72.7097
+      ],
+      "area": 205344,
+      "urbanization": 37,
+      "districts": [
+        {
+          "name": "Lahore District",
+          "population": 11126000,
+          "riskLevel": "high",
+          "coordinates": [
+            31.5497,
+            74.3436
+          ],
+          "floodFrequency": "Monsoon urban flooding",
+          "avgWaterLevel": 1.9,
+          "estimatedDamage": 820000000,
+          "redevelopmentCost": 2000000000,
+          "rainfall": 628,
+          "cloudCover": 52,
+          "boundaries": [
+            [
+              31.4,
+              74.2
+            ],
+            [
+              31.4,
+              74.5
+            ],
+            [
+              31.7,
+              74.5
+            ],
+            [
+              31.7,
+              74.2
+            ],
+            [
+              31.4,
+              74.2
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 517,
+              "historical": [
+                342,
+                374,
+                407,
+                439,
+                517
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30,
+              "historical": [
+                28.4,
+                28.8,
+                29.2,
+                29.6,
+                30
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 37.4
+            },
+            "soilMoisture": {
+              "current": 87.3,
+              "historical": [
+                67.5,
+                71.1,
+                74.8,
+                78.5,
+                87.3
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Multan District",
+          "population": 4745000,
+          "riskLevel": "high",
+          "coordinates": [
+            30.1978,
+            71.4711
+          ],
+          "floodFrequency": "River flooding during monsoon",
+          "avgWaterLevel": 2.2,
+          "estimatedDamage": 580000000,
+          "redevelopmentCost": 1400000000,
+          "rainfall": 186,
+          "cloudCover": 48,
+          "boundaries": [
+            [
+              29.95,
+              71.3
+            ],
+            [
+              29.95,
+              71.7
+            ],
+            [
+              30.45,
+              71.7
+            ],
+            [
+              30.45,
+              71.3
+            ],
+            [
+              29.95,
+              71.3
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 288,
+              "historical": [
+                191,
+                209,
+                227,
+                245,
+                288
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.0%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 30.7,
+              "historical": [
+                29.1,
+                29.5,
+                29.9,
+                30.3,
+                30.7
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 35.9
+            },
+            "soilMoisture": {
+              "current": 54.2,
+              "historical": [
+                41.9,
+                44.2,
+                46.4,
+                48.7,
+                54.2
+              ],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          }
+        },
+        {
+          "name": "Rajanpur District",
+          "population": 1996000,
+          "riskLevel": "critical",
+          "coordinates": [
+            29.1044,
+            70.33
+          ],
+          "floodFrequency": "Extreme flooding, Indus riverbank",
+          "avgWaterLevel": 3.8,
+          "estimatedDamage": 640000000,
+          "redevelopmentCost": 1500000000,
+          "rainfall": 140,
+          "cloudCover": 45,
+          "boundaries": [
+            [
+              28.8,
+              70
+            ],
+            [
+              28.8,
+              70.7
+            ],
+            [
+              29.45,
+              70.7
+            ],
+            [
+              29.45,
+              70
+            ],
+            [
+              28.8,
+              70
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 206,
+              "historical": [
+                136,
+                148,
+                161,
+                174,
+                206
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.7%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 32.8,
+              "historical": [
+                31.2,
+                31.6,
+                32,
+                32.4,
+                32.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38
+            },
+            "soilMoisture": {
+              "current": 51.4,
+              "historical": [
+                39.7,
+                41.9,
+                44,
+                46.2,
+                51.4
+              ],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Khyber Pakhtunkhwa Province",
+      "population": 35525000,
+      "riskLevel": 68,
+      "coordinates": [
+        34.9526,
+        72.3311
+      ],
+      "area": 74521,
+      "urbanization": 18,
+      "districts": [
+        {
+          "name": "Peshawar District",
+          "population": 4269000,
+          "riskLevel": "high",
+          "coordinates": [
+            34.0151,
+            71.5249
+          ],
+          "floodFrequency": "Flash floods from mountain runoff",
+          "avgWaterLevel": 2,
+          "estimatedDamage": 420000000,
+          "redevelopmentCost": 1000000000,
+          "rainfall": 400,
+          "cloudCover": 55,
+          "boundaries": [
+            [
+              33.85,
+              71.35
+            ],
+            [
+              33.85,
+              71.7
+            ],
+            [
+              34.15,
+              71.7
+            ],
+            [
+              34.15,
+              71.35
+            ],
+            [
+              33.85,
+              71.35
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 413,
+              "historical": [
+                273,
+                299,
+                325,
+                350,
+                413
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.9,
+              "historical": [
+                30.3,
+                30.7,
+                31.1,
+                31.5,
+                31.9
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.7
+            },
+            "soilMoisture": {
+              "current": 80.4,
+              "historical": [
+                62.1,
+                65.5,
+                68.9,
+                72.3,
+                80.4
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        },
+        {
+          "name": "Nowshera District",
+          "population": 1526000,
+          "riskLevel": "critical",
+          "coordinates": [
+            34.0153,
+            71.9747
+          ],
+          "floodFrequency": "Severe riverine flooding",
+          "avgWaterLevel": 2.8,
+          "estimatedDamage": 380000000,
+          "redevelopmentCost": 900000000,
+          "rainfall": 580,
+          "cloudCover": 58,
+          "boundaries": [
+            [
+              33.85,
+              71.8
+            ],
+            [
+              33.85,
+              72.2
+            ],
+            [
+              34.18,
+              72.2
+            ],
+            [
+              34.18,
+              71.8
+            ],
+            [
+              33.85,
+              71.8
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 444,
+              "historical": [
+                294,
+                321,
+                349,
+                377,
+                444
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 31.3,
+              "historical": [
+                29.7,
+                30.1,
+                30.5,
+                30.9,
+                31.3
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 38.1
+            },
+            "soilMoisture": {
+              "current": 81.9,
+              "historical": [
+                63.3,
+                66.7,
+                70.2,
+                73.6,
+                81.9
+              ],
+              "trend": "increasing",
+              "saturationLevel": "critical",
+              "infiltrationRate": "poor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balochistan Province",
+      "population": 12344000,
+      "riskLevel": 58,
+      "coordinates": [
+        28.4897,
+        65.096
+      ],
+      "area": 347190,
+      "urbanization": 28,
+      "districts": [
+        {
+          "name": "Quetta District",
+          "population": 2275000,
+          "riskLevel": "medium",
+          "coordinates": [
+            30.1798,
+            66.975
+          ],
+          "floodFrequency": "Flash floods from rare heavy rainfall",
+          "avgWaterLevel": 1.2,
+          "estimatedDamage": 180000000,
+          "redevelopmentCost": 450000000,
+          "rainfall": 250,
+          "cloudCover": 38,
+          "boundaries": [
+            [
+              30,
+              66.8
+            ],
+            [
+              30,
+              67.2
+            ],
+            [
+              30.35,
+              67.2
+            ],
+            [
+              30.35,
+              66.8
+            ],
+            [
+              30,
+              66.8
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 204,
+              "historical": [
+                135,
+                147,
+                160,
+                173,
+                204
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.3%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 33.8,
+              "historical": [
+                32.2,
+                32.6,
+                33,
+                33.4,
+                33.8
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39
+            },
+            "soilMoisture": {
+              "current": 56.8,
+              "historical": [
+                43.9,
+                46.3,
+                48.7,
+                51.1,
+                56.8
+              ],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          }
+        },
+        {
+          "name": "Jaffarabad District",
+          "population": 514000,
+          "riskLevel": "critical",
+          "coordinates": [
+            28.0226,
+            68.4375
+          ],
+          "floodFrequency": "Severe flooding from river overflow",
+          "avgWaterLevel": 2.7,
+          "estimatedDamage": 320000000,
+          "redevelopmentCost": 750000000,
+          "rainfall": 120,
+          "cloudCover": 35,
+          "boundaries": [
+            [
+              27.8,
+              68.2
+            ],
+            [
+              27.8,
+              68.7
+            ],
+            [
+              28.25,
+              68.7
+            ],
+            [
+              28.25,
+              68.2
+            ],
+            [
+              27.8,
+              68.2
+            ]
+          ],
+          "nasaData": {
+            "rainfall": {
+              "current": 257,
+              "historical": [
+                170,
+                186,
+                202,
+                218,
+                257
+              ],
+              "trend": "increasing",
+              "anomaly": "+28.5%",
+              "lastUpdated": "2025-10-01"
+            },
+            "temperature": {
+              "current": 34,
+              "historical": [
+                32.4,
+                32.8,
+                33.2,
+                33.6,
+                34
+              ],
+              "trend": "increasing",
+              "anomaly": "+1.4°C",
+              "heatIndex": 39.2
+            },
+            "soilMoisture": {
+              "current": 52.6,
+              "historical": [
+                40.6,
+                42.9,
+                45.1,
+                47.3,
+                52.6
+              ],
+              "trend": "increasing",
+              "saturationLevel": "moderate",
+              "infiltrationRate": "good"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
